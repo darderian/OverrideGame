@@ -1,0 +1,12 @@
+{
+  "name": "Override 2086 - Copy",
+  "short_name": "Override 2086 - Copy",
+  "id": "com.example.gamename",
+  "description": "",
+  "orientation": "any",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": []
+}
