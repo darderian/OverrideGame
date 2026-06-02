@@ -2087,6 +2087,54 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 4/Projectile/5cb7c240d55e97c18f6f1da41d1c379049db6799daacaf3cf06ff99b1909feaf_Bullet.png",
           "name": "Bullet.png"
         }
+      },
+      {
+        "file": "assets/NewSprite18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite18.png\"}",
+        "name": "NewSprite11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "jaguar-idle.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"jaguar-idle.png\",\"extension\":\".png\"}",
+        "name": "jaguar-idle.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "jaguar-movement_0004.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"jaguar-movement_0004.png\",\"extension\":\".png\"}",
+        "name": "jaguar-movement_0004.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "jaguar-movement_0002.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"jaguar-movement_0002.png\",\"extension\":\".png\"}",
+        "name": "jaguar-movement_0002.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "jaguar-movement_0003.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"jaguar-movement_0003.png\",\"extension\":\".png\"}",
+        "name": "jaguar-movement_0003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "jaguar-movement_0001.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"jaguar-movement_0001.png\",\"extension\":\".png\"}",
+        "name": "jaguar-movement_0001.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -3476,6 +3524,68 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "EnemyHealthBar",
+      "persistentUuid": "5b45fe83-1164-41db-b2b9-ddf6a30dcce9",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite11",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3510,6 +3620,9 @@
       },
       {
         "objectName": "Bullet"
+      },
+      {
+        "objectName": "EnemyHealthBar"
       }
     ]
   },
@@ -4053,15 +4166,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0.9219858156028372,
-          "height": 118.01418439716316,
+          "depth": 1.418439716312057,
+          "height": 181.5602836879433,
           "keepRatio": true,
           "layer": "",
           "name": "Ounce",
           "persistentUuid": "235779fb-3132-4d77-bdc9-6a58c3ce2e4c",
-          "width": 130,
-          "x": 1069,
-          "y": 553,
+          "width": 200,
+          "x": 949,
+          "y": 488,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -4159,13 +4272,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
+          "depth": 1,
           "height": 60,
           "keepRatio": true,
           "layer": "",
           "name": "NewTileMap",
           "persistentUuid": "f7a3719d-ca6d-4aef-8c21-74ce720f66b9",
-          "width": 630,
+          "width": 858,
           "x": 818,
           "y": 658,
           "zOrder": 15,
@@ -4270,7 +4383,7 @@
           "name": "Floor",
           "opacity": 13,
           "persistentUuid": "b974c5c0-f0d1-46d9-88bb-47eb1940efbb",
-          "width": 619,
+          "width": 853,
           "x": 819,
           "y": 672,
           "zOrder": 20,
@@ -4423,7 +4536,7 @@
       ],
       "objects": [
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Ounce",
           "persistentUuid": "aed8d924-b1ae-44c4-acc0-491fb0031811",
@@ -4448,9 +4561,9 @@
             {
               "name": "Health",
               "type": "Health::Health",
-              "Health": 10,
+              "Health": 9,
               "CurrentHealth": 0,
-              "MaxHealth": 10,
+              "MaxHealth": 9,
               "DamageCooldown": 1,
               "AllowOverHealing": false,
               "IsHealthJustDamaged": false,
@@ -4497,17 +4610,24 @@
           ],
           "animations": [
             {
-              "name": "default",
+              "name": "idle",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "pixellab-Pixel-art-side-view-sprite-of--1777939198631.png",
-                      "points": [],
+                      "image": "jaguar-idle.png",
+                      "points": [
+                        {
+                          "name": "HealthBar",
+                          "x": 32,
+                          "y": 10
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -4522,20 +4642,201 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 3,
-                            "y": 13
+                            "x": 30,
+                            "y": 82
                           },
                           {
-                            "x": 62,
-                            "y": 13
+                            "x": 86,
+                            "y": 82
                           },
                           {
-                            "x": 62,
-                            "y": 48
+                            "x": 86,
+                            "y": 120
                           },
                           {
-                            "x": 3,
-                            "y": 48
+                            "x": 30,
+                            "y": 120
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "movement",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.15,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "jaguar-movement_0001.png",
+                      "points": [
+                        {
+                          "name": "HealthBar",
+                          "x": 32,
+                          "y": 10
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 82
+                          },
+                          {
+                            "x": 86,
+                            "y": 82
+                          },
+                          {
+                            "x": 86,
+                            "y": 120
+                          },
+                          {
+                            "x": 30,
+                            "y": 120
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "jaguar-movement_0004.png",
+                      "points": [
+                        {
+                          "name": "HealthBar",
+                          "x": 32,
+                          "y": 10
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 82
+                          },
+                          {
+                            "x": 86,
+                            "y": 82
+                          },
+                          {
+                            "x": 86,
+                            "y": 120
+                          },
+                          {
+                            "x": 30,
+                            "y": 120
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "jaguar-movement_0002.png",
+                      "points": [
+                        {
+                          "name": "HealthBar",
+                          "x": 32,
+                          "y": 10
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 82
+                          },
+                          {
+                            "x": 86,
+                            "y": 82
+                          },
+                          {
+                            "x": 86,
+                            "y": 120
+                          },
+                          {
+                            "x": 30,
+                            "y": 120
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "jaguar-movement_0003.png",
+                      "points": [
+                        {
+                          "name": "HealthBar",
+                          "x": 32,
+                          "y": 10
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 82
+                          },
+                          {
+                            "x": 86,
+                            "y": 82
+                          },
+                          {
+                            "x": 86,
+                            "y": 120
+                          },
+                          {
+                            "x": 30,
+                            "y": 120
                           }
                         ]
                       ]
@@ -5522,7 +5823,7 @@
                     "Player",
                     "Animation",
                     "=",
-                    "\"idle-front\""
+                    "\"idle\""
                   ]
                 }
               ]
@@ -5746,6 +6047,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -5814,6 +6116,109 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "used_double_jump",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"w\""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "has_double_jump_hability",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "used_double_jump",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SetCanJump"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateJumpKey"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "used_double_jump",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -5823,7 +6228,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Ounce",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5901,6 +6305,61 @@
                     "can_pounce",
                     "True",
                     ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                  },
+                  "parameters": [
+                    "Ounce",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Ounce",
+                    "Animation",
+                    "=",
+                    "\"movement\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                  },
+                  "parameters": [
+                    "Ounce",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Ounce",
+                    "Animation",
+                    "=",
+                    "\"idle\""
                   ]
                 }
               ]
@@ -6124,6 +6583,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Damage",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6296,7 +6756,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Health",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6340,7 +6799,7 @@
                   "parameters": [
                     "Ounce",
                     "Health",
-                    "=",
+                    "<=",
                     "0",
                     ""
                   ]
@@ -6354,6 +6813,31 @@
                   "parameters": [
                     "Ounce",
                     ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Ounce",
+                    "EnemyHealthBar"
                   ]
                 }
               ]
@@ -6712,7 +7196,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5523052571418401,
+        "zoomFactor": 0.45264823531418463,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -7247,8 +7731,8 @@
           "name": "Bumper",
           "persistentUuid": "56dbf6f6-c93a-4d70-b41e-39f1e1a96a15",
           "width": 28,
-          "x": 1788,
-          "y": 712,
+          "x": 1792,
+          "y": 716,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -7451,7 +7935,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "untitled.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "HealthBar",
+                          "x": 64,
+                          "y": 44
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -7578,9 +8068,9 @@
             {
               "name": "Health",
               "type": "Health::Health",
-              "Health": 20,
+              "Health": 18,
               "CurrentHealth": 0,
-              "MaxHealth": 20,
+              "MaxHealth": 18,
               "DamageCooldown": 0,
               "AllowOverHealing": false,
               "IsHealthJustDamaged": false,
@@ -7638,7 +8128,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "alligator-idle2.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "HealthBar",
+                          "x": 63,
+                          "y": 42
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -7687,7 +8183,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "movement7",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "HealthBar",
+                          "x": 63,
+                          "y": 42
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -7723,7 +8225,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "movement8",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "HealthBar",
+                          "x": 63,
+                          "y": 42
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -7759,7 +8267,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "movement9",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "HealthBar",
+                          "x": 63,
+                          "y": 42
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -7795,7 +8309,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "movement10",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "HealthBar",
+                          "x": 63,
+                          "y": 42
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -7843,7 +8363,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "alligator-attack_0001.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "HealthBar",
+                          "x": 63,
+                          "y": 42
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -7879,7 +8405,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "alligator-attack_0002.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "HealthBar",
+                          "x": 63,
+                          "y": 42
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -7915,7 +8447,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "alligator-attack_0003.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "HealthBar",
+                          "x": 63,
+                          "y": 42
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -7951,7 +8489,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "alligator-attack_0004.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "HealthBar",
+                          "x": 63,
+                          "y": 42
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -7987,7 +8531,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "alligator-attack_0005.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "HealthBar",
+                          "x": 63,
+                          "y": 42
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -8023,7 +8573,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "alligator-attack_0006.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "HealthBar",
+                          "x": 63,
+                          "y": 42
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -8059,7 +8615,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "alligator-attack_0007.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "HealthBar",
+                          "x": 63,
+                          "y": 42
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -8095,7 +8657,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "alligator-attack_0008.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "HealthBar",
+                          "x": 63,
+                          "y": 42
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -8509,7 +9077,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10031,6 +10598,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Damage",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10249,6 +10817,162 @@
                   "parameters": [
                     "Bullet",
                     ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Health",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Health::Health::Health"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "<=",
+                    "0",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Game Over\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Health::Health::Health"
+                  },
+                  "parameters": [
+                    "Alligator",
+                    "Health",
+                    "<=",
+                    "0",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Alligator",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Health::Health::Health"
+                  },
+                  "parameters": [
+                    "Alligator",
+                    "Health",
+                    "<=",
+                    "0",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Eel",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "EnemyHealthBar",
+                    "Alligator.PointX(\"HealthBar\")",
+                    "Alligator.PointY(\"HealthBar\")",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "EnemyHealthBar",
+                    "Eel.PointX(\"HealthBar\")",
+                    "Eel.PointY(\"HealthBar\")",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Alligator",
+                    "EnemyHealthBar"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Eel",
+                    "EnemyHealthBar"
                   ]
                 }
               ]
