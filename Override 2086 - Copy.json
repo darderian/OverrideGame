@@ -13,9 +13,9 @@
     "folderProject": false,
     "orientation": "default",
     "packageName": "com.example.gamename",
-    "pixelsRounding": false,
+    "pixelsRounding": true,
     "projectUuid": "bbec06c3-6131-43c4-bfca-03027f30f6b8",
-    "scaleMode": "linear",
+    "scaleMode": "nearest",
     "sizeOnStartupMode": "adaptWidth",
     "templateSlug": "",
     "useDeprecatedZeroAsDefaultStringVariable": true,
@@ -23,8 +23,8 @@
     "name": "Override 2086 - Copy",
     "description": "",
     "author": "",
-    "windowWidth": 1400,
-    "windowHeight": 1080,
+    "windowWidth": 1408,
+    "windowHeight": 768,
     "latestCompilationDirectory": "C:\\Users\\natal\\Downloads\\fase6",
     "maxFPS": 60,
     "minFPS": 20,
@@ -1771,6 +1771,86 @@
         "name": "NewSprite4",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Gemini_Generated_Image_feacmdfeacmdfeac.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gemini_Generated_Image_feacmdfeacmdfeac.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Gemini_Generated_Image_feacmdfeacmdfeac2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gemini_Generated_Image_feacmdfeacmdfeac2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tiles.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tiles.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tiles2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tiles2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Gemini_Generated_Image_dqlckhdqlckhdqlc.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gemini_Generated_Image_dqlckhdqlckhdqlc.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tiles3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tiles3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tiles4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tiles4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite7",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -2873,6 +2953,146 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Floor",
+      "persistentUuid": "e460cfb1-84ba-4537-9d71-4e130ea0865f",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Floor",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Floor",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "PlatformThruFloor",
+      "persistentUuid": "206f4af2-39e6-41d9-93eb-31794f93c304",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "Jumpthru",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2892,6 +3112,12 @@
       },
       {
         "objectName": "Bullet"
+      },
+      {
+        "objectName": "Floor"
+      },
+      {
+        "objectName": "PlatformThruFloor"
       }
     ]
   },
@@ -2941,7 +3167,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4836898196257679,
+        "zoomFactor": 0.4679116832192158,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -3364,6 +3590,10 @@
           "type": "OpacityCapability::OpacityBehavior"
         },
         {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
@@ -3403,7 +3633,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5800155239904866,
+        "zoomFactor": 0.5427920802473295,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -3415,15 +3645,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 128,
+          "height": 100,
           "keepRatio": true,
           "layer": "",
           "name": "Player",
           "persistentUuid": "b5b4bf0a-2039-4bea-a4f5-d136e4294bb1",
-          "width": 128,
-          "x": -134,
-          "y": 693,
-          "zOrder": 0,
+          "width": 100,
+          "x": 489,
+          "y": 79,
+          "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3431,33 +3661,16 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Ground",
-          "persistentUuid": "83938dbc-d9ad-43c2-b58c-88d231d6fffa",
-          "width": 1618,
-          "x": -133,
-          "y": 808,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 128,
+          "depth": 0.9219858156028372,
+          "height": 118.01418439716316,
           "keepRatio": true,
           "layer": "",
           "name": "Enemy",
           "persistentUuid": "235779fb-3132-4d77-bdc9-6a58c3ce2e4c",
-          "width": 141,
-          "x": 1310,
-          "y": 712,
-          "zOrder": 4,
+          "width": 130,
+          "x": 1105,
+          "y": 402,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3498,15 +3711,16 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 204,
+          "height": 907,
           "keepRatio": true,
-          "layer": "",
-          "name": "Tree",
-          "persistentUuid": "a897a7c0-924d-433c-b14b-3e8e97e35235",
-          "width": 212,
-          "x": -125,
-          "y": 609,
-          "zOrder": -8,
+          "layer": "Background Layer",
+          "locked": true,
+          "name": "Background",
+          "persistentUuid": "d8372b7d-dd68-420a-9ed1-db67ad127231",
+          "width": 1663,
+          "x": -138,
+          "y": -112,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3515,15 +3729,141 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 204,
+          "height": 75,
           "keepRatio": true,
           "layer": "",
-          "name": "Tree",
-          "persistentUuid": "4a27f732-880f-4461-a38c-246348c5c830",
-          "width": 212,
-          "x": 147,
-          "y": 614,
-          "zOrder": -8,
+          "name": "Floor",
+          "persistentUuid": "d7eb2b7b-ef28-4ca6-b727-156621496222",
+          "width": 1869,
+          "x": -245,
+          "y": 693,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 60,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTileMap",
+          "persistentUuid": "f244fc1d-0481-4628-9194-c5c4ca8c69a7",
+          "width": 270,
+          "x": -5,
+          "y": 553,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":18,\"dimY\":4,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,4],[25,26,27,28,26,27,28,26,27,28,26,27,28,26,27,28,26,29],[50,51,52,53,51,52,53,51,52,53,51,52,53,51,52,53,51,54],[100,101,102,103,101,102,103,101,102,103,101,102,103,101,102,103,101,104]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 60,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTileMap",
+          "persistentUuid": "f7a3719d-ca6d-4aef-8c21-74ce720f66b9",
+          "width": 630,
+          "x": 818,
+          "y": 546,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":42,\"dimY\":4,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,4],[25,26,27,28,26,27,28,26,27,28,26,27,28,26,27,28,26,27,28,26,27,28,26,27,28,26,27,28,26,27,28,26,27,28,26,27,28,26,27,28,26,29],[50,51,52,53,51,52,53,51,52,53,51,52,53,51,52,53,51,52,53,51,52,53,51,52,53,51,52,53,51,52,53,51,52,53,51,52,53,51,52,53,51,54],[100,101,102,103,101,102,103,101,102,103,101,102,103,101,102,103,101,102,103,101,102,103,101,102,103,101,102,103,101,102,103,101,102,103,101,102,103,101,102,103,101,104]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 60,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTileMap",
+          "persistentUuid": "d5010bbf-a01f-44a4-8c78-3e59f38fe5d7",
+          "width": 360,
+          "x": 1088,
+          "y": 141,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":24,\"dimY\":4,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,4],[25,26,27,28,26,27,28,26,27,28,26,27,28,26,27,28,26,27,28,26,27,28,26,29],[50,51,52,53,51,52,53,51,52,53,51,52,53,51,52,53,51,52,53,51,52,53,51,54],[100,101,102,103,101,102,103,101,102,103,101,102,103,101,102,103,101,102,103,101,102,103,101,104]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTileMap",
+          "persistentUuid": "2ca781e1-574a-414a-abc2-b45523965d9d",
+          "width": 0,
+          "x": 239,
+          "y": 396,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":15,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,2,3,1,2,3,1,2,3,1,2,3,1,4],[100,101,102,103,101,102,103,101,102,103,101,102,103,101,104]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTileMap",
+          "persistentUuid": "b3c96408-a96b-41b0-a9c7-a3a322f0e51c",
+          "width": 0,
+          "x": 429,
+          "y": 236,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":19,\"dimY\":4,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,4],[25,26,27,28,26,27,28,26,27,28,26,27,28,26,27,28,26,27,29],[50,51,52,53,51,52,53,51,52,53,51,52,53,51,52,53,51,52,54],[100,101,102,103,101,102,103,101,102,103,101,102,103,101,102,103,101,102,104]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 47,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "opacity": 13,
+          "persistentUuid": "b9038ed6-3187-40a7-b6c9-774c6a55e67f",
+          "width": 261,
+          "x": -1,
+          "y": 566,
+          "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3532,15 +3872,16 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 204,
+          "height": 47,
           "keepRatio": true,
           "layer": "",
-          "name": "Tree",
-          "persistentUuid": "22a4e2a2-da5a-4d5d-a45c-3ddcf39c5fc6",
-          "width": 212,
-          "x": 459,
-          "y": 611,
-          "zOrder": -8,
+          "name": "Floor",
+          "opacity": 13,
+          "persistentUuid": "b974c5c0-f0d1-46d9-88bb-47eb1940efbb",
+          "width": 619,
+          "x": 819,
+          "y": 560,
+          "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3549,15 +3890,16 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 204,
+          "height": 47,
           "keepRatio": true,
           "layer": "",
-          "name": "Tree",
-          "persistentUuid": "e397a6de-0da4-4251-ada9-32510ddbea1e",
-          "width": 212,
-          "x": 766,
-          "y": 613,
-          "zOrder": -8,
+          "name": "Floor",
+          "opacity": 13,
+          "persistentUuid": "a601c7a0-00c8-4674-91ae-e8e38893168a",
+          "width": 296,
+          "x": 436,
+          "y": 249,
+          "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3566,15 +3908,67 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 204,
+          "height": 47,
           "keepRatio": true,
           "layer": "",
-          "name": "Tree",
-          "persistentUuid": "bac267b1-87eb-47b5-9f11-24188eca72a5",
-          "width": 212,
-          "x": 1123,
-          "y": 605,
-          "zOrder": -8,
+          "name": "Floor",
+          "opacity": 13,
+          "persistentUuid": "7201042b-59d3-4c96-8b2f-c61c1026ed80",
+          "width": 353,
+          "x": 1090,
+          "y": 156,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 20,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlatformThruFloor",
+          "persistentUuid": "d74d92b1-985b-40f1-9d18-e6d3a820e03b",
+          "width": 231,
+          "x": 244,
+          "y": 410,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 12,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TriggerJump",
+          "persistentUuid": "abe77644-64fa-4320-a48f-552370cecb49",
+          "width": 35,
+          "x": 313,
+          "y": 685,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 12,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TriggerJump",
+          "persistentUuid": "9e9c28d4-a354-4366-bb58-bf1f523f47ed",
+          "width": 53,
+          "x": 720,
+          "y": 687,
+          "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3584,101 +3978,17 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Floor",
-          "persistentUuid": "e460cfb1-84ba-4537-9d71-4e130ea0865f",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "Floor",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Floor",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "height": 32,
-          "name": "Ground",
-          "persistentUuid": "e279597f-aa8e-40c1-a00e-efc9febc6a9a",
-          "texture": "Assets/grass_block.png2",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": false,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
           "name": "Enemy",
           "persistentUuid": "aed8d924-b1ae-44c4-acc0-491fb0031811",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "can_pounce",
+              "type": "boolean",
+              "value": true
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -3717,17 +4027,17 @@
               "PercentDamageReduction": 0
             },
             {
-              "acceleration": 900,
-              "deceleration": 1400,
-              "ignoreDefaultControls": false,
-              "maxSpeed": 200,
+              "gravity": 1200,
+              "ignoreDefaultControls": true,
+              "jumpSpeed": 800,
+              "maxSpeed": 250,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "acceleration": 900,
+              "deceleration": 1400,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
               "canGrabWithoutMoving": true,
-              "gravity": 1000,
-              "jumpSpeed": 600,
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
@@ -3993,6 +4303,214 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Background",
+          "persistentUuid": "a9c86ccb-6f7b-4c8f-a31b-c2cdb5edb7d5",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Gemini_Generated_Image_feacmdfeacmdfeac.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1408,
+                            "y": 0
+                          },
+                          {
+                            "x": 1408,
+                            "y": 768
+                          },
+                          {
+                            "x": 0,
+                            "y": 768
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "persistentUuid": "7997bf02-0529-4178-826b-05fc0e8e31e9",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Gemini_Generated_Image_feacmdfeacmdfeac2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 640,
+                            "y": 0
+                          },
+                          {
+                            "x": 640,
+                            "y": 349
+                          },
+                          {
+                            "x": 0,
+                            "y": 349
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewTileMap",
+          "persistentUuid": "3ce7d6e5-0c31-45a2-bbae-8c2b5f147602",
+          "type": "TileMap::SimpleTileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "content": {
+            "atlasImage": "Tiles2.png",
+            "rowCount": 25,
+            "columnCount": 25,
+            "tileSize": 16,
+            "tilesWithHitBox": ""
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "TriggerJump",
+          "persistentUuid": "7360534a-d56b-4149-b0e9-3ce9f4963a37",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite7",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -4011,13 +4529,19 @@
             "objectName": "Enemy"
           },
           {
-            "objectName": "Floor"
-          },
-          {
-            "objectName": "Ground"
-          },
-          {
             "objectName": "Tree"
+          },
+          {
+            "objectName": "Background"
+          },
+          {
+            "objectName": "NewSprite"
+          },
+          {
+            "objectName": "NewTileMap"
+          },
+          {
+            "objectName": "TriggerJump"
           }
         ]
       },
@@ -4065,6 +4589,28 @@
                 "Player",
                 "\"5\""
               ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Floor",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "PlatformThruFloor",
+                "Opacity",
+                "=",
+                "0"
+              ]
             }
           ]
         },
@@ -4092,7 +4638,47 @@
                 "Player",
                 "",
                 "",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "CenterCameraOnObject"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "",
+                "\"Background Layer\"",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ClampCamera"
+              },
+              "parameters": [
+                "",
+                "0",
+                "0",
+                "1408",
+                "768",
+                "",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ClampCamera"
+              },
+              "parameters": [
+                "",
+                "0",
+                "0",
+                "1408",
+                "768",
+                "\"Background Layer\"",
+                "0"
               ]
             }
           ]
@@ -4619,6 +5205,74 @@
                     "Enemy",
                     "PlatformerObject"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "can_pounce",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateJumpKey"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "can_pounce",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "can_pounce",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "Player",
+                    "300",
+                    ""
+                  ]
                 }
               ],
               "actions": [],
@@ -4711,17 +5365,108 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "Player",
+                        "<",
+                        "Enemy.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Player",
+                        "-600",
+                        "-200",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "Player",
+                        ">",
+                        "Enemy.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Player",
+                        "600",
+                        "-200",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "TriggerJump",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Player",
+                    "<",
+                    "Enemy.Y()"
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "SeparateFromObjects"
+                    "value": "PlatformBehavior::SimulateJumpKey"
                   },
                   "parameters": [
                     "Enemy",
-                    "Player",
-                    ""
+                    "PlatformerObject"
                   ]
                 }
               ]
@@ -4996,6 +5741,60 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
+          "name": "Background Layer",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
           "name": "",
           "renderingType": "",
           "visibility": true,
@@ -5177,7 +5976,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5,
+        "zoomFactor": 0.6966274447723521,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -5218,11 +6017,223 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 837.2093023255815,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Background",
+          "persistentUuid": "183f80e1-207c-4c1e-9eac-45e346e50ad9",
+          "width": 1500,
+          "x": -33,
+          "y": -52,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tilemap",
+          "persistentUuid": "e2031e07-bdb4-434e-9858-f8254e956d2c",
+          "width": 0,
+          "x": 0,
+          "y": 524,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":15,\"dimY\":4,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,2,3,1,2,3,1,2,3,1,2,3,1,4],[25,26,27,28,26,27,28,26,27,28,26,27,28,26,29],[50,51,52,53,51,52,53,51,52,53,51,52,53,51,54],[100,101,102,103,101,102,103,101,102,103,101,102,103,101,104]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 209,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tilemap",
+          "persistentUuid": "7dfe92b8-1d20-4f16-a65b-c5f625982669",
+          "width": 240,
+          "x": 3,
+          "y": 563,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":15,\"dimY\":11,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[175,176,177,178,176,177,178,176,177,178,176,177,178,176,179],[200,201,202,203,201,202,203,201,202,203,201,202,203,201,204],[200,201,202,203,201,202,203,201,202,203,201,202,203,201,204],[200,201,202,203,201,202,203,201,202,203,201,202,203,201,204],[200,201,202,203,201,202,203,201,202,203,201,202,203,201,204],[200,201,202,203,201,202,203,201,202,203,201,202,203,201,204],[200,201,202,203,201,202,203,201,202,203,201,202,203,201,204],[200,201,202,203,201,202,203,201,202,203,201,202,203,201,204],[200,201,202,203,201,202,203,201,202,203,201,202,203,201,204],[200,201,202,203,201,202,203,201,202,203,201,202,203,201,204],[200,201,202,203,201,202,203,201,202,203,201,202,203,201,204]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tilemap",
+          "persistentUuid": "57ba59c6-9a1b-41ce-be3c-2a99199cdd88",
+          "width": 362,
+          "x": 447,
+          "y": 549,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":15,\"dimY\":4,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,2,3,1,2,3,1,2,3,1,2,3,1,4],[25,26,27,28,26,27,28,26,27,28,26,27,28,26,29],[50,51,52,53,51,52,53,51,52,53,51,52,53,51,54],[100,101,102,103,101,102,103,101,102,103,101,102,103,101,104]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tilemap",
+          "persistentUuid": "c7be11cf-2d6d-4091-bb31-7003f27efd25",
+          "width": 362,
+          "x": 758,
+          "y": 353,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":15,\"dimY\":4,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,2,3,1,2,3,1,2,3,1,2,3,1,4],[25,26,27,28,26,27,28,26,27,28,26,27,28,26,29],[50,51,52,53,51,52,53,51,52,53,51,52,53,51,54],[100,101,102,103,101,102,103,101,102,103,101,102,103,101,104]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tilemap",
+          "persistentUuid": "a8395213-50f3-44cc-b570-38baff88d2c1",
+          "width": 362,
+          "x": 1144,
+          "y": 102,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":15,\"dimY\":4,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,2,3,1,2,3,1,2,3,1,2,3,1,4],[25,26,27,28,26,27,28,26,27,28,26,27,28,26,29],[50,51,52,53,51,52,53,51,52,53,51,52,53,51,54],[100,101,102,103,101,102,103,101,102,103,101,102,103,101,104]]}]}"
+            }
+          ],
+          "initialVariables": []
         }
       ],
-      "objects": [],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Background",
+          "persistentUuid": "191b2773-c5f5-42a4-bd7b-d431c9f453f1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Gemini_Generated_Image_dqlckhdqlckhdqlc.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 2752,
+                            "y": 0
+                          },
+                          {
+                            "x": 2752,
+                            "y": 1536
+                          },
+                          {
+                            "x": 0,
+                            "y": 1536
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Tilemap",
+          "persistentUuid": "51ef0935-7369-4a13-a9ce-80312e8cce3f",
+          "type": "TileMap::SimpleTileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "atlasImage": "Tiles4.png",
+            "rowCount": 25,
+            "columnCount": 25,
+            "tileSize": 16,
+            "tilesWithHitBox": ""
+          }
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Background"
+          },
+          {
+            "objectName": "Tilemap"
+          }
+        ]
       },
       "events": [],
       "layers": [
@@ -5320,6 +6331,10 @@
         {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
         },
         {
           "name": "PlatformerObject",
@@ -5471,6 +6486,10 @@
           "type": "OpacityCapability::OpacityBehavior"
         },
         {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
@@ -5620,6 +6639,10 @@
           "type": "OpacityCapability::OpacityBehavior"
         },
         {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
@@ -5767,6 +6790,10 @@
         {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
         },
         {
           "name": "PlatformerObject",
@@ -10550,6 +11577,10 @@
           "type": "OpacityCapability::OpacityBehavior"
         },
         {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
@@ -11049,6 +12080,10 @@
           "type": "OpacityCapability::OpacityBehavior"
         },
         {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
@@ -11196,6 +12231,10 @@
         {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
         },
         {
           "name": "PlatformerObject",
