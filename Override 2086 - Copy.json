@@ -2075,6 +2075,18 @@
         "name": "movement10",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Bullet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bullet.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 4/Projectile/5cb7c240d55e97c18f6f1da41d1c379049db6799daacaf3cf06ff99b1909feaf_Bullet.png",
+          "name": "Bullet.png"
+        }
       }
     ]
   },
@@ -2115,9 +2127,9 @@
         {
           "name": "Health",
           "type": "Health::Health",
-          "Health": 10,
+          "Health": 5,
           "CurrentHealth": 0,
-          "MaxHealth": 10,
+          "MaxHealth": 5,
           "DamageCooldown": 1.5,
           "AllowOverHealing": false,
           "IsHealthJustDamaged": false,
@@ -2272,7 +2284,7 @@
           ]
         },
         {
-          "name": "idle-east",
+          "name": "idle",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -2282,60 +2294,6 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "east.png",
-                  "points": [
-                    {
-                      "name": "shoot",
-                      "x": 68.5,
-                      "y": 36
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 46,
-                    "y": 46
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 33,
-                        "y": 8
-                      },
-                      {
-                        "x": 60,
-                        "y": 8
-                      },
-                      {
-                        "x": 60,
-                        "y": 81
-                      },
-                      {
-                        "x": 33,
-                        "y": 81
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "idle-west",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "west.png",
                   "points": [
                     {
                       "name": "shoot",
@@ -3104,7 +3062,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Bullet",
+      "name": "BulletFake",
       "persistentUuid": "e1202e56-dbca-4d38-98d8-cc350a0b51ac",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -3457,6 +3415,67 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "00c58eed5a99b943df281578eff34893ff9201ba3efa09e7fcdbdd075526a2a6",
+      "name": "Bullet",
+      "persistentUuid": "88f42455-761b-4d50-8f3b-01920dfb7577",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Bullet.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 7
+                      },
+                      {
+                        "x": 10,
+                        "y": 7
+                      },
+                      {
+                        "x": 10,
+                        "y": 11
+                      },
+                      {
+                        "x": 5,
+                        "y": 11
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3475,7 +3494,7 @@
         "objectName": "Player"
       },
       {
-        "objectName": "Bullet"
+        "objectName": "BulletFake"
       },
       {
         "objectName": "Floor"
@@ -3488,6 +3507,9 @@
       },
       {
         "objectName": "Wall"
+      },
+      {
+        "objectName": "Bullet"
       }
     ]
   },
@@ -3496,7 +3518,7 @@
     {
       "name": "hp_player",
       "type": "number",
-      "value": 10
+      "value": 5
     },
     {
       "name": "has_double_jump_hability",
@@ -4035,7 +4057,7 @@
           "height": 118.01418439716316,
           "keepRatio": true,
           "layer": "",
-          "name": "Enemy",
+          "name": "Ounce",
           "persistentUuid": "235779fb-3132-4d77-bdc9-6a58c3ce2e4c",
           "width": 130,
           "x": 1069,
@@ -4403,7 +4425,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Enemy",
+          "name": "Ounce",
           "persistentUuid": "aed8d924-b1ae-44c4-acc0-491fb0031811",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -4426,9 +4448,9 @@
             {
               "name": "Health",
               "type": "Health::Health",
-              "Health": 5,
+              "Health": 10,
               "CurrentHealth": 0,
-              "MaxHealth": 5,
+              "MaxHealth": 10,
               "DamageCooldown": 1,
               "AllowOverHealing": false,
               "IsHealthJustDamaged": false,
@@ -4889,7 +4911,7 @@
             "objectName": "BasicExplosionEnergySparks"
           },
           {
-            "objectName": "Enemy"
+            "objectName": "Ounce"
           },
           {
             "objectName": "Tree"
@@ -5072,7 +5094,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Fire Bullet",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5116,8 +5137,19 @@
                     "",
                     "Bullet",
                     "Player.PointX(\"shoot\")",
-                    "Player.Y(\"shoot\")",
+                    "Player.Y(\"shoot\") - 15",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "Bullet",
+                    "Resizable",
+                    "30",
+                    "30"
                   ]
                 },
                 {
@@ -5804,7 +5836,7 @@
                     "value": "Distance"
                   },
                   "parameters": [
-                    "Enemy",
+                    "Ounce",
                     "Player",
                     "300",
                     ""
@@ -5815,7 +5847,7 @@
                     "value": "PlatformBehavior::IsOnFloor"
                   },
                   "parameters": [
-                    "Enemy",
+                    "Ounce",
                     "PlatformerObject"
                   ]
                 },
@@ -5824,7 +5856,7 @@
                     "value": "BooleanObjectVariable"
                   },
                   "parameters": [
-                    "Enemy",
+                    "Ounce",
                     "can_pounce",
                     "True",
                     ""
@@ -5837,7 +5869,7 @@
                     "value": "PlatformBehavior::SimulateJumpKey"
                   },
                   "parameters": [
-                    "Enemy",
+                    "Ounce",
                     "PlatformerObject"
                   ]
                 },
@@ -5846,7 +5878,7 @@
                     "value": "SetBooleanObjectVariable"
                   },
                   "parameters": [
-                    "Enemy",
+                    "Ounce",
                     "can_pounce",
                     "False",
                     ""
@@ -5865,7 +5897,7 @@
                     "value": "SetBooleanObjectVariable"
                   },
                   "parameters": [
-                    "Enemy",
+                    "Ounce",
                     "can_pounce",
                     "True",
                     ""
@@ -5881,7 +5913,7 @@
                     "value": "Distance"
                   },
                   "parameters": [
-                    "Enemy",
+                    "Ounce",
                     "Player",
                     "300",
                     ""
@@ -5900,7 +5932,7 @@
                       "parameters": [
                         "Player",
                         "<",
-                        "Enemy.X()"
+                        "Ounce.X()"
                       ]
                     }
                   ],
@@ -5910,7 +5942,7 @@
                         "value": "PlatformBehavior::SimulateLeftKey"
                       },
                       "parameters": [
-                        "Enemy",
+                        "Ounce",
                         "PlatformerObject"
                       ]
                     },
@@ -5919,7 +5951,7 @@
                         "value": "FlippableCapability::FlippableBehavior::FlipX"
                       },
                       "parameters": [
-                        "Enemy",
+                        "Ounce",
                         "Flippable",
                         ""
                       ]
@@ -5936,7 +5968,7 @@
                       "parameters": [
                         "Player",
                         ">",
-                        "Enemy.X()"
+                        "Ounce.X()"
                       ]
                     }
                   ],
@@ -5946,7 +5978,7 @@
                         "value": "PlatformBehavior::SimulateRightKey"
                       },
                       "parameters": [
-                        "Enemy",
+                        "Ounce",
                         "PlatformerObject"
                       ]
                     },
@@ -5955,7 +5987,7 @@
                         "value": "FlippableCapability::FlippableBehavior::FlipX"
                       },
                       "parameters": [
-                        "Enemy",
+                        "Ounce",
                         "Flippable",
                         "yes"
                       ]
@@ -5972,7 +6004,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Enemy",
+                    "Ounce",
                     "Player",
                     "",
                     "",
@@ -5998,7 +6030,7 @@
                       "parameters": [
                         "Player",
                         "<",
-                        "Enemy.X()"
+                        "Ounce.X()"
                       ]
                     }
                   ],
@@ -6026,7 +6058,7 @@
                       "parameters": [
                         "Player",
                         ">",
-                        "Enemy.X()"
+                        "Ounce.X()"
                       ]
                     }
                   ],
@@ -6054,7 +6086,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Enemy",
+                    "Ounce",
                     "TriggerJump",
                     "",
                     "",
@@ -6068,7 +6100,7 @@
                   "parameters": [
                     "Player",
                     "<",
-                    "Enemy.Y()"
+                    "Ounce.Y()"
                   ]
                 }
               ],
@@ -6078,7 +6110,7 @@
                     "value": "PlatformBehavior::SimulateJumpKey"
                   },
                   "parameters": [
-                    "Enemy",
+                    "Ounce",
                     "PlatformerObject"
                   ]
                 }
@@ -6092,7 +6124,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Damage",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6106,7 +6137,7 @@
                   },
                   "parameters": [
                     "Bullet",
-                    "Enemy",
+                    "Ounce",
                     "",
                     "",
                     ""
@@ -6125,7 +6156,7 @@
                     "value": "Health::Health::Hit"
                   },
                   "parameters": [
-                    "Enemy",
+                    "Ounce",
                     "Health",
                     "1",
                     "no",
@@ -6138,7 +6169,7 @@
                     "value": "Flash::Flash::Flash"
                   },
                   "parameters": [
-                    "Enemy",
+                    "Ounce",
                     "Flash",
                     "0.5",
                     ""
@@ -6163,7 +6194,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Enemy",
+                    "Ounce",
                     "Player",
                     "",
                     "",
@@ -6204,6 +6235,54 @@
                     "Player",
                     "Flash",
                     "0.5",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Bullet",
+                        "Floor",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Bullet",
+                        "Wall",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Bullet",
                     ""
                   ]
                 }
@@ -6259,7 +6338,7 @@
                     "value": "Health::Health::Health"
                   },
                   "parameters": [
-                    "Enemy",
+                    "Ounce",
                     "Health",
                     "=",
                     "0",
@@ -6273,7 +6352,7 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "Enemy",
+                    "Ounce",
                     ""
                   ]
                 }
@@ -6312,7 +6391,7 @@
                   },
                   "parameters": [
                     "",
-                    "Enemy",
+                    "Ounce",
                     "<=",
                     "0"
                   ]
@@ -6633,7 +6712,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6519202405202658,
+        "zoomFactor": 0.5523052571418401,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -6826,7 +6905,7 @@
           "name": "Tilemap",
           "persistentUuid": "4c99e914-67df-4b72-b4c6-fac571e7da84",
           "width": 0,
-          "x": 667,
+          "x": 661,
           "y": 628,
           "zOrder": 10,
           "numberProperties": [],
@@ -6848,7 +6927,7 @@
           "name": "Floor",
           "persistentUuid": "bc22a2c6-a761-434a-b4c3-cccf5801b849",
           "width": 140,
-          "x": 539,
+          "x": 529,
           "y": 880,
           "zOrder": 16,
           "numberProperties": [],
@@ -6864,7 +6943,7 @@
           "name": "Eel",
           "persistentUuid": "baee264b-2696-4a9c-8112-158a0962424f",
           "width": 0,
-          "x": 544,
+          "x": 534,
           "y": 800,
           "zOrder": 23,
           "numberProperties": [],
@@ -6996,7 +7075,7 @@
           "opacity": 13,
           "persistentUuid": "bf26621f-8ce6-4c79-bbed-5fec8c824dc4",
           "width": 204,
-          "x": 669,
+          "x": 663,
           "y": 643,
           "zOrder": 14,
           "numberProperties": [],
@@ -7303,6 +7382,41 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Flash",
+              "type": "Flash::Flash",
+              "HalfPeriodTime": 0.1,
+              "IsFlashing": false,
+              "FlashDuration": 0
+            },
+            {
+              "name": "Health",
+              "type": "Health::Health",
+              "Health": 5,
+              "CurrentHealth": 0,
+              "MaxHealth": 5,
+              "DamageCooldown": 0,
+              "AllowOverHealing": false,
+              "IsHealthJustDamaged": false,
+              "DamageToBeApplied": 0,
+              "HitAtLeastOnce": false,
+              "ChanceToDodge": 0,
+              "IsJustDodged": false,
+              "HealToBeApplied": 0,
+              "HealthRegenRate": 0,
+              "HealthRegenDelay": 0,
+              "IsJustHealed": false,
+              "CurrentShieldPoints": 2.0247e-320,
+              "MaxShieldPoints": 0,
+              "ShieldDuration": 5,
+              "ShieldRegenRate": 0,
+              "BlockExcessDamage": false,
+              "ShieldRegenDelay": 0,
+              "IsShieldJustDamaged": false,
+              "ShieldDamageTaken": 2.0247e-320,
+              "FlatDamageReduction": 0,
+              "PercentDamageReduction": 0
+            },
+            {
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -7310,6 +7424,7 @@
               "deceleration": 1500,
               "gravity": 1000,
               "ignoreDefaultControls": true,
+              "isFolded": true,
               "jumpSpeed": 1100,
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
@@ -7454,6 +7569,13 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Flash",
+              "type": "Flash::Flash",
+              "HalfPeriodTime": 0.1,
+              "IsFlashing": false,
+              "FlashDuration": 0
+            },
+            {
               "name": "Health",
               "type": "Health::Health",
               "Health": 20,
@@ -7560,44 +7682,8 @@
                 {
                   "looping": true,
                   "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.25,
                   "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "movement6",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 34,
-                            "y": 50
-                          },
-                          {
-                            "x": 93,
-                            "y": 50
-                          },
-                          {
-                            "x": 93,
-                            "y": 75
-                          },
-                          {
-                            "x": 34,
-                            "y": 75
-                          }
-                        ]
-                      ]
-                    },
                     {
                       "hasCustomCollisionMask": true,
                       "image": "movement7",
@@ -7752,7 +7838,7 @@
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.15,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -8283,6 +8369,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Camera",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8353,6 +8440,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Eel",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8664,7 +8752,7 @@
                     "Player",
                     "Animation",
                     "=",
-                    "\"idle-front\""
+                    "\"idle\""
                   ]
                 }
               ]
@@ -9069,6 +9157,193 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
+          "name": "Fire Bullet",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "!=",
+                    "\"shooting\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Bullet",
+                    "Player.PointX(\"shoot\")",
+                    "Player.Y(\"shoot\") - 15",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "Bullet",
+                    "Resizable",
+                    "30",
+                    "30"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"shooting\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "LightningTexture",
+                    "Player.PointX(\"shoot\")",
+                    "Player.Y(\"shoot\")",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ParticleSystem::ParticleSize2"
+                  },
+                  "parameters": [
+                    "LightningTexture",
+                    "=",
+                    "7"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Flippable"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Bullet",
+                        "-1000",
+                        "0",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Flippable"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Bullet",
+                        "1000",
+                        "0",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"idle\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
           "name": "Wall",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9139,6 +9414,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Alligator",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9279,6 +9555,17 @@
                     },
                     {
                       "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Alligator",
+                        "Animation",
+                        "=",
+                        "\"idle\""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "ResetObjectTimer"
                       },
                       "parameters": [
@@ -9363,6 +9650,79 @@
                   "parameters": [
                     "Alligator",
                     "\"attack\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "Alligator",
+                    "state",
+                    "=",
+                    "\"preparing\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CenterX"
+                      },
+                      "parameters": [
+                        "Player",
+                        ">",
+                        "Alligator.CenterX()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "Alligator",
+                        "Flippable",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CenterX"
+                      },
+                      "parameters": [
+                        "Player",
+                        "<",
+                        "Alligator.CenterX()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "Alligator",
+                        "Flippable",
+                        "no"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -9490,6 +9850,83 @@
                     "Alligator",
                     "state",
                     "=",
+                    "\"recovering\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::MaxSpeed"
+                  },
+                  "parameters": [
+                    "Alligator",
+                    "PlatformerObject",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Alligator",
+                    "Animation",
+                    "=",
+                    "\"idle\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Alligator",
+                    "\"attack\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "Alligator",
+                    "state",
+                    "=",
+                    "\"recovering\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Alligator",
+                    "\"attack\"",
+                    ">=",
+                    "4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Alligator",
+                    "state",
+                    "=",
                     "\"patrol\""
                   ]
                 },
@@ -9588,6 +10025,241 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Damage",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Bullet",
+                    "Eel",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Health::Health::Hit"
+                  },
+                  "parameters": [
+                    "Eel",
+                    "Health",
+                    "1",
+                    "no",
+                    "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Flash::Flash::Flash"
+                  },
+                  "parameters": [
+                    "Eel",
+                    "Flash",
+                    "0.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Bullet",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Bullet",
+                    "Alligator",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Health::Health::Hit"
+                  },
+                  "parameters": [
+                    "Alligator",
+                    "Health",
+                    "1",
+                    "no",
+                    "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Flash::Flash::Flash"
+                  },
+                  "parameters": [
+                    "Alligator",
+                    "Flash",
+                    "0.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Bullet",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Alligator",
+                    "Player",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Health::Health::Hit"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "1",
+                    "no",
+                    "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "LifeValue",
+                    "Text",
+                    "=",
+                    "ToString(Player.Health::Health())"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Flash::Flash::Flash"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Flash",
+                    "0.5",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Bullet",
+                        "Floor",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Bullet",
+                        "Wall",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Bullet",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
