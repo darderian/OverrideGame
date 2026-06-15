@@ -81,6 +81,7 @@
     "authorUsernames": [],
     "categories": [],
     "playableDevices": [
+      "mobile",
       "mobile"
     ],
     "extensionProperties": [],
@@ -11992,7 +11993,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "..\\..\\Gemini_Generated_Image_x8g9iix8g9iix8g9.png",
+                      "image": "Gemini_Generated_Image_x8g9iix8g9iix8g9.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
