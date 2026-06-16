@@ -1,7 +1,7 @@
 {
   "firstLayout": "Phase6 -final",
   "gdVersion": {
-    "build": 261,
+    "build": 269,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -18,6 +18,7 @@
     "scaleMode": "nearest",
     "sizeOnStartupMode": "adaptWidth",
     "templateSlug": "",
+    "useDeprecatedZeroAsDefaultStringVariable": true,
     "version": "1.0.0",
     "name": "Override 2086 - Copy",
     "description": "",
@@ -81,7 +82,6 @@
     "authorUsernames": [],
     "categories": [],
     "playableDevices": [
-      "mobile",
       "mobile"
     ],
     "extensionProperties": [],
@@ -4309,7 +4309,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.35269049347712406,
+        "zoomFactor": 1.053645833333337,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -4756,11 +4756,142 @@
           "name": "Ounce",
           "persistentUuid": "7e7faf70-157e-43e6-be8f-be243e17a528",
           "width": 200,
-          "x": 288,
-          "y": 298,
+          "x": 496,
+          "y": 176,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 20,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlatformThruFloor",
+          "persistentUuid": "b10402be-4277-4c9c-82c3-ed981abed651",
+          "width": 231,
+          "x": -115.5,
+          "y": -10,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 20,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlatformThruFloor",
+          "persistentUuid": "1254880a-7fec-43a3-b659-72e629c0b613",
+          "width": 231,
+          "x": 801,
+          "y": 318,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTileMap",
+          "persistentUuid": "85b0997d-70a4-4567-a081-cd5ed3fe0f6e",
+          "width": 0,
+          "x": 800,
+          "y": 308,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":15,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,2,3,1,2,3,1,2,3,1,2,3,1,4],[100,101,102,103,101,102,103,101,102,103,101,102,103,101,104]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 20,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlatformThruFloor",
+          "persistentUuid": "13b9e066-00c9-48d9-b0da-69303237a8f8",
+          "width": 231,
+          "x": 1142,
+          "y": 536,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTileMap",
+          "persistentUuid": "1799495d-8f54-4a68-9825-a634adb5811e",
+          "width": 0,
+          "x": 1141,
+          "y": 526,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":15,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,2,3,1,2,3,1,2,3,1,2,3,1,4],[100,101,102,103,101,102,103,101,102,103,101,102,103,101,104]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 20,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlatformThruFloor",
+          "persistentUuid": "5607e2b5-96d1-4959-a79b-21736d85b4ab",
+          "width": 231,
+          "x": 794,
+          "y": 464,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTileMap",
+          "persistentUuid": "9b7e8b2f-105c-4a7f-a8db-c3056d06b2d4",
+          "width": 0,
+          "x": 793,
+          "y": 454,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":15,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,2,3,1,2,3,1,2,3,1,2,3,1,4],[100,101,102,103,101,102,103,101,102,103,101,102,103,101,104]]}]}"
+            }
+          ],
           "initialVariables": []
         }
       ],
@@ -7397,7 +7528,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.45264823531418547,
+        "zoomFactor": 0.6519202405202669,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -7771,7 +7902,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 56,
+          "height": 38,
           "keepRatio": true,
           "layer": "",
           "name": "Floor",
@@ -7967,6 +8098,24 @@
           "x": 166,
           "y": 32,
           "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 51,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "opacity": 13,
+          "persistentUuid": "95c0a7b4-4705-486e-9f4b-9b9d3ed3de9c",
+          "width": 1101,
+          "x": 229,
+          "y": 899,
+          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11089,6 +11238,88 @@
                   "parameters": [
                     "Bullet",
                     ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Acid",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Health::Health::Hit"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "1",
+                    "no",
+                    "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "LifeValue",
+                    "Text",
+                    "=",
+                    "ToString(Player.Health::Health())"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Flash::Flash::Flash"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Flash",
+                    "0.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "Player",
+                    "=",
+                    "43"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "Player",
+                    "=",
+                    "627"
                   ]
                 }
               ]
@@ -24560,12 +24791,18 @@
       "globalVariables": [],
       "sceneVariables": [],
       "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "eventsBasedBehaviors": [
         {
           "description": "Manage health (life) points, shield and armor.",
           "fullName": "Health",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "Health",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -29136,6 +29373,226 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "folderName": "Health",
+                "children": [
+                  {
+                    "functionName": "Hit"
+                  },
+                  {
+                    "functionName": "Health"
+                  },
+                  {
+                    "functionName": "SetHealth"
+                  },
+                  {
+                    "functionName": "Heal"
+                  },
+                  {
+                    "functionName": "TriggerDamageCooldown"
+                  },
+                  {
+                    "functionName": "HitAtLeastOnce"
+                  },
+                  {
+                    "functionName": "IsJustDamaged"
+                  },
+                  {
+                    "functionName": "IsJustHealed"
+                  },
+                  {
+                    "functionName": "IsDamageCooldownActive"
+                  },
+                  {
+                    "functionName": "DamageCooldownRemaining"
+                  },
+                  {
+                    "functionName": "IsDead"
+                  },
+                  {
+                    "functionName": "TimeSinceLastHit"
+                  },
+                  {
+                    "functionName": "PreviousDamageTaken"
+                  },
+                  {
+                    "functionName": "IsJustDodged"
+                  },
+                  {
+                    "functionName": "PreviousHealAmount"
+                  }
+                ]
+              },
+              {
+                "folderName": "Health configuration",
+                "children": [
+                  {
+                    "functionName": "SetCurrentHealth"
+                  },
+                  {
+                    "functionName": "MaxHealth"
+                  },
+                  {
+                    "functionName": "SetMaxHealthOp"
+                  },
+                  {
+                    "functionName": "SetMaxHealth"
+                  },
+                  {
+                    "functionName": "HealthRegenRate"
+                  },
+                  {
+                    "functionName": "SetHealthRegenRateOp"
+                  },
+                  {
+                    "functionName": "SetHealthRegenRate"
+                  },
+                  {
+                    "functionName": "DamageCooldownDuration"
+                  },
+                  {
+                    "functionName": "SetCooldownDurationOp"
+                  },
+                  {
+                    "functionName": "SetCooldownDuration"
+                  },
+                  {
+                    "functionName": "HealthRegenDelay"
+                  },
+                  {
+                    "functionName": "SetHealthRegenDelayOp"
+                  },
+                  {
+                    "functionName": "SetHealthRegenDelay"
+                  },
+                  {
+                    "functionName": "ChanceToDodge"
+                  },
+                  {
+                    "functionName": "SetChanceToDodgeOp"
+                  },
+                  {
+                    "functionName": "SetChanceToDodge"
+                  },
+                  {
+                    "functionName": "FlatDamageReduction"
+                  },
+                  {
+                    "functionName": "SetFlatDamageReductionOp"
+                  },
+                  {
+                    "functionName": "SetFlatDamageReduction"
+                  },
+                  {
+                    "functionName": "PercentDamageReduction"
+                  },
+                  {
+                    "functionName": "SetPercentDamageReductionOp"
+                  },
+                  {
+                    "functionName": "SetPercentDamageReduction"
+                  },
+                  {
+                    "functionName": "AllowOverHealing"
+                  },
+                  {
+                    "functionName": "SetHitAtLeastOnce"
+                  },
+                  {
+                    "functionName": "SetJustDamaged"
+                  }
+                ]
+              },
+              {
+                "folderName": "Shield configuration",
+                "children": [
+                  {
+                    "functionName": "MaxShield"
+                  },
+                  {
+                    "functionName": "SetMaxShieldOp"
+                  },
+                  {
+                    "functionName": "SetMaxShield"
+                  },
+                  {
+                    "functionName": "SetMaxShieldPoints"
+                  },
+                  {
+                    "functionName": "SetShieldPoints"
+                  },
+                  {
+                    "functionName": "ShieldRegenRate"
+                  },
+                  {
+                    "functionName": "SetShieldRegenRateOp"
+                  },
+                  {
+                    "functionName": "SetShieldRegenRate"
+                  },
+                  {
+                    "functionName": "ShieldRegenDelay"
+                  },
+                  {
+                    "functionName": "SetShieldRegenDelayOp"
+                  },
+                  {
+                    "functionName": "SetShieldRegenDelay"
+                  },
+                  {
+                    "functionName": "ShieldDuration"
+                  },
+                  {
+                    "functionName": "SetShieldDurationOp"
+                  },
+                  {
+                    "functionName": "SetShieldDuration"
+                  },
+                  {
+                    "functionName": "SetShieldBlockExcessDamage"
+                  }
+                ]
+              },
+              {
+                "folderName": "Shield",
+                "children": [
+                  {
+                    "functionName": "ShieldPoints"
+                  },
+                  {
+                    "functionName": "SetShieldPointsOp"
+                  },
+                  {
+                    "functionName": "RenewShieldDuration"
+                  },
+                  {
+                    "functionName": "ActivateShield"
+                  },
+                  {
+                    "functionName": "IsShieldJustDamaged"
+                  },
+                  {
+                    "functionName": "IsShieldActive"
+                  },
+                  {
+                    "functionName": "ShieldTimeRemaining"
+                  },
+                  {
+                    "functionName": "PreviousDamageToShield"
+                  }
+                ]
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "100",
@@ -29499,12 +29956,18 @@
       "globalVariables": [],
       "sceneVariables": [],
       "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "eventsBasedBehaviors": [
         {
           "description": "Fire bullets with built-in cooldown, ammo, reloading, and overheating. Once added to your object that must shoot, use the behavior actions to fire another object as a bullet. These actions check all constraints internally (can be called without conditions, they will only fire when ready) and will make the bullet move (using a permanent force).",
           "fullName": "Fire bullets",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "FireBullet",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -34189,6 +34652,265 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "FireTowardObject"
+              },
+              {
+                "functionName": "FireTowardPosition"
+              },
+              {
+                "functionName": "Fire"
+              },
+              {
+                "folderName": "Firing",
+                "children": [
+                  {
+                    "functionName": "FireSingleBullet"
+                  },
+                  {
+                    "functionName": "HasJustFired"
+                  },
+                  {
+                    "functionName": "BulletRotationEnabled"
+                  },
+                  {
+                    "functionName": "SetAngleVariance"
+                  },
+                  {
+                    "functionName": "SetBulletLayer"
+                  },
+                  {
+                    "functionName": "SetRotateBullet"
+                  },
+                  {
+                    "functionName": "Cooldown"
+                  },
+                  {
+                    "functionName": "SetCooldownOp"
+                  },
+                  {
+                    "functionName": "SetCooldown"
+                  },
+                  {
+                    "functionName": "CooldownTimeLeft"
+                  },
+                  {
+                    "functionName": "IsReadyToShoot"
+                  },
+                  {
+                    "functionName": "IsFiringCooldownActive"
+                  }
+                ]
+              },
+              {
+                "functionName": "ReloadAmmo"
+              },
+              {
+                "folderName": "Multi-Fire",
+                "children": [
+                  {
+                    "functionName": "FiringArc"
+                  },
+                  {
+                    "functionName": "SetFiringArcOp"
+                  },
+                  {
+                    "functionName": "SetFiringArc"
+                  },
+                  {
+                    "functionName": "SetBulletSpeedVariance"
+                  },
+                  {
+                    "functionName": "BulletQuantity"
+                  },
+                  {
+                    "functionName": "SetBulletQuantityOp"
+                  },
+                  {
+                    "functionName": "SetBulletQuantity"
+                  },
+                  {
+                    "functionName": "BulletLayer"
+                  }
+                ]
+              },
+              {
+                "folderName": "Firing variance",
+                "children": [
+                  {
+                    "functionName": "AngleVariance"
+                  },
+                  {
+                    "functionName": "SetAngleVarianceOp"
+                  },
+                  {
+                    "functionName": "BulletSpeedVariance"
+                  },
+                  {
+                    "functionName": "SetBulletSpeedVarianceOp"
+                  }
+                ]
+              },
+              {
+                "folderName": "Ammo",
+                "children": [
+                  {
+                    "functionName": "SetUnlimitedAmmo"
+                  },
+                  {
+                    "functionName": "AmmoQuantity"
+                  },
+                  {
+                    "functionName": "SetAmmoQuantityOp"
+                  },
+                  {
+                    "functionName": "SetAmmoQuantity"
+                  },
+                  {
+                    "functionName": "MaxAmmo"
+                  },
+                  {
+                    "functionName": "SetMaxAmmoOp"
+                  },
+                  {
+                    "functionName": "SetMaxAmmo"
+                  },
+                  {
+                    "functionName": "IsUnlimitedAmmo"
+                  },
+                  {
+                    "functionName": "IsOutOfAmmo"
+                  }
+                ]
+              },
+              {
+                "folderName": "Reload",
+                "children": [
+                  {
+                    "functionName": "ReloadDuration"
+                  },
+                  {
+                    "functionName": "SetReloadDurationOp"
+                  },
+                  {
+                    "functionName": "SetReloadDuration"
+                  },
+                  {
+                    "functionName": "ShotsPerReload"
+                  },
+                  {
+                    "functionName": "SetShotsPerReloadOp"
+                  },
+                  {
+                    "functionName": "SetShotsPerReload"
+                  },
+                  {
+                    "functionName": "SetAutomaticReload"
+                  },
+                  {
+                    "functionName": "ShotsBeforeNextReload"
+                  },
+                  {
+                    "functionName": "ReloadTimeLeft"
+                  },
+                  {
+                    "functionName": "IsReloadInProgress"
+                  },
+                  {
+                    "functionName": "IsAutomaticReloadingEnabled"
+                  },
+                  {
+                    "functionName": "IsReloadNeeded"
+                  }
+                ]
+              },
+              {
+                "folderName": "Overheat",
+                "children": [
+                  {
+                    "functionName": "OverheatDuration"
+                  },
+                  {
+                    "functionName": "SetOverheatDurationOp"
+                  },
+                  {
+                    "functionName": "SetOverheatDuration"
+                  },
+                  {
+                    "functionName": "HeatIncreasePerShot"
+                  },
+                  {
+                    "functionName": "SetHeatPerShotOp"
+                  },
+                  {
+                    "functionName": "SetHeatPerShot"
+                  },
+                  {
+                    "functionName": "LinearCoolingRate"
+                  },
+                  {
+                    "functionName": "SetLinearCoolingRateOp"
+                  },
+                  {
+                    "functionName": "SetLinearCoolingRate"
+                  },
+                  {
+                    "functionName": "ExponentialCoolingRate"
+                  },
+                  {
+                    "functionName": "SetExponentialCoolingRateOp"
+                  },
+                  {
+                    "functionName": "SetExponentialCoolingRate"
+                  },
+                  {
+                    "functionName": "HeatLevel"
+                  },
+                  {
+                    "functionName": "OverheatTimeLeft"
+                  },
+                  {
+                    "functionName": "IsOverheated"
+                  }
+                ]
+              },
+              {
+                "folderName": "Stats",
+                "children": [
+                  {
+                    "functionName": "ResetTotalShotsFired"
+                  },
+                  {
+                    "functionName": "ResetTotalBulletsCreated"
+                  },
+                  {
+                    "functionName": "ResetTotalReloadsCompleted"
+                  },
+                  {
+                    "functionName": "TotalShotsFired"
+                  },
+                  {
+                    "functionName": "TotalBulletsCreated"
+                  },
+                  {
+                    "functionName": "TotalReloadsCompleted"
+                  }
+                ]
+              },
+              {
+                "functionName": "IncreaseAmmo"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "0.1",
@@ -34913,12 +35635,32 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "ColorTint"
+          },
+          {
+            "functionName": "IsTinted"
+          },
+          {
+            "functionName": "ToggleColorTint"
+          },
+          {
+            "functionName": "ToggleVisibility"
+          }
+        ]
+      },
       "eventsBasedBehaviors": [
         {
           "description": "Make the object flash (blink) for a period of time so it alternates between visible and invisible.",
           "fullName": "Flash visibility (blink)",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "Flash",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -35419,6 +36161,37 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "Flash"
+              },
+              {
+                "functionName": "IsFlashing"
+              },
+              {
+                "functionName": "onDeActivate"
+              },
+              {
+                "functionName": "Stop"
+              },
+              {
+                "folderName": "Flash visibility (blink) configuration",
+                "children": [
+                  {
+                    "functionName": "HalfPeriodTime"
+                  },
+                  {
+                    "functionName": "SetHalfPeriodTime"
+                  }
+                ]
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "0.1",
@@ -35463,8 +36236,11 @@
         {
           "description": "Make an object flash a color tint for a period of time.",
           "fullName": "Flash color tint",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "FlashColor",
           "objectType": "Sprite",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -36000,6 +36776,37 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "Flash"
+              },
+              {
+                "functionName": "IsFlashing"
+              },
+              {
+                "functionName": "onDeActivate"
+              },
+              {
+                "functionName": "Stop"
+              },
+              {
+                "folderName": "Flash color tint configuration",
+                "children": [
+                  {
+                    "functionName": "HalfPeriodTime"
+                  },
+                  {
+                    "functionName": "SetHalfPeriodTime"
+                  }
+                ]
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "0.1",
@@ -36054,8 +36861,11 @@
         {
           "description": "Flash opacity smoothly (fade) in a repeating loop.",
           "fullName": "Flash opacity smothly (fade)",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "FlashOpacity",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -36640,6 +37450,37 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "Flash"
+              },
+              {
+                "functionName": "IsFlashing"
+              },
+              {
+                "functionName": "onDeActivate"
+              },
+              {
+                "functionName": "Stop"
+              },
+              {
+                "folderName": "Flash opacity smothly (fade) configuration",
+                "children": [
+                  {
+                    "functionName": "HalfPeriodTime"
+                  },
+                  {
+                    "functionName": "SetHalfPeriodTime"
+                  }
+                ]
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -36734,8 +37575,11 @@
         {
           "description": "Make the object flash an effect for a period of time.",
           "fullName": "Flash effect",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "FlashEffect",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -37535,6 +38379,40 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "Flash"
+              },
+              {
+                "functionName": "IsFlashing"
+              },
+              {
+                "functionName": "onDeActivate"
+              },
+              {
+                "functionName": "Stop"
+              },
+              {
+                "folderName": "Flash effect configuration",
+                "children": [
+                  {
+                    "functionName": "HalfPeriodTime"
+                  },
+                  {
+                    "functionName": "SetHalfPeriodTime"
+                  }
+                ]
+              },
+              {
+                "functionName": "ToggleEffect"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -37638,12 +38516,18 @@
       "globalVariables": [],
       "sceneVariables": [],
       "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "eventsBasedBehaviors": [
         {
           "description": "Paint all over the screen a color for a period of time.",
           "fullName": "Flash and transition painter",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "FlashTransitionPainter",
           "objectType": "PrimitiveDrawing::Drawer",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -38413,6 +39297,23 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "doStepPostEvents"
+              },
+              {
+                "functionName": "PaintEffect"
+              },
+              {
+                "functionName": "PaintEffectIsEnd"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "0",
@@ -38519,12 +39420,18 @@
       "globalVariables": [],
       "sceneVariables": [],
       "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "eventsBasedBehaviors": [
         {
           "description": "Use objects as buttons.",
           "fullName": "Button states",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "ButtonFSM",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -39598,6 +40505,41 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "onDeActivate"
+              },
+              {
+                "functionName": "ResetState"
+              },
+              {
+                "functionName": "IsIdle"
+              },
+              {
+                "functionName": "IsClicked"
+              },
+              {
+                "functionName": "IsHovered"
+              },
+              {
+                "functionName": "IsFocused"
+              },
+              {
+                "functionName": "IsPressed"
+              },
+              {
+                "functionName": "IsPressedOutside"
+              },
+              {
+                "functionName": "TouchId"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "true",
@@ -39692,8 +40634,11 @@
         {
           "description": "Enable effects on buttons based on their state.",
           "fullName": "Button object effects",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "ButtonObjectEffects",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -40187,6 +41132,40 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "folderName": "Button object effects configuration",
+                "children": [
+                  {
+                    "functionName": "IdleEffect"
+                  },
+                  {
+                    "functionName": "SetIdleEffect"
+                  },
+                  {
+                    "functionName": "FocusedEffect"
+                  },
+                  {
+                    "functionName": "SetFocusedEffect"
+                  },
+                  {
+                    "functionName": "PressedEffect"
+                  },
+                  {
+                    "functionName": "SetPressedEffect"
+                  }
+                ]
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -40260,8 +41239,11 @@
         {
           "description": "Change the animation of buttons according to their state.",
           "fullName": "Button animation",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "ButtonAnimationName",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -40664,6 +41646,40 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "folderName": "Button animation configuration",
+                "children": [
+                  {
+                    "functionName": "IdleAnimationName"
+                  },
+                  {
+                    "functionName": "SetIdleAnimationName"
+                  },
+                  {
+                    "functionName": "FocusedAnimationName"
+                  },
+                  {
+                    "functionName": "SetFocusedAnimationName"
+                  },
+                  {
+                    "functionName": "PressedAnimationName"
+                  },
+                  {
+                    "functionName": "SetPressedAnimationName"
+                  }
+                ]
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -40737,8 +41753,11 @@
         {
           "description": "Smoothly change an effect on buttons according to their state.",
           "fullName": "Button object effect tween",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "ButtonObjectEffectTween",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -42196,6 +43215,85 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "TimeDelta"
+              },
+              {
+                "functionName": "FadeIn"
+              },
+              {
+                "functionName": "FadeOut"
+              },
+              {
+                "functionName": "PlayTween"
+              },
+              {
+                "folderName": "Button effect tween configuration",
+                "children": [
+                  {
+                    "functionName": "EffectName"
+                  },
+                  {
+                    "functionName": "EffectProperty"
+                  },
+                  {
+                    "functionName": "SetEffectProperty"
+                  },
+                  {
+                    "functionName": "IdleValue"
+                  },
+                  {
+                    "functionName": "SetIdleValue"
+                  },
+                  {
+                    "functionName": "FocusedValue"
+                  },
+                  {
+                    "functionName": "SetFocusedValue"
+                  },
+                  {
+                    "functionName": "PressedValue"
+                  },
+                  {
+                    "functionName": "SetPressedValue"
+                  },
+                  {
+                    "functionName": "FadeInEasing"
+                  },
+                  {
+                    "functionName": "SetFadeInEasing"
+                  },
+                  {
+                    "functionName": "FadeOutEasing"
+                  },
+                  {
+                    "functionName": "SetFadeOutEasing"
+                  },
+                  {
+                    "functionName": "FadeInDuration"
+                  },
+                  {
+                    "functionName": "SetFadeInDuration"
+                  },
+                  {
+                    "functionName": "FadeOutDuration"
+                  },
+                  {
+                    "functionName": "SetFadeOutDuration"
+                  }
+                ]
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -42708,8 +43806,11 @@
         {
           "description": "Smoothly resize buttons according to their state.",
           "fullName": "Button scale tween",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "ButtonScaleTween",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -43644,6 +44745,70 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "FadeIn"
+              },
+              {
+                "functionName": "FadeOut"
+              },
+              {
+                "folderName": "Button scale tween configuration",
+                "children": [
+                  {
+                    "functionName": "IdleScale"
+                  },
+                  {
+                    "functionName": "SetIdleScale"
+                  },
+                  {
+                    "functionName": "FocusedScale"
+                  },
+                  {
+                    "functionName": "SetFocusedScale"
+                  },
+                  {
+                    "functionName": "PressedScale"
+                  },
+                  {
+                    "functionName": "SetPressedScale"
+                  },
+                  {
+                    "functionName": "FadeInDuration"
+                  },
+                  {
+                    "functionName": "SetFadeInDuration"
+                  },
+                  {
+                    "functionName": "FadeOutDuration"
+                  },
+                  {
+                    "functionName": "SetFadeOutDuration"
+                  },
+                  {
+                    "functionName": "FadeInEasing"
+                  },
+                  {
+                    "functionName": "SetFadeInEasing"
+                  },
+                  {
+                    "functionName": "FadeOutEasing"
+                  },
+                  {
+                    "functionName": "SetFadeOutEasing"
+                  }
+                ]
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -44072,8 +45237,11 @@
         {
           "description": "Smoothly change the color tint of buttons according to their state.",
           "fullName": "Button color tint tween",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "ButtonColorTintTween",
           "objectType": "Sprite",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -45022,6 +46190,70 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "FadeIn"
+              },
+              {
+                "functionName": "FadeOut"
+              },
+              {
+                "folderName": "Button color tint tween",
+                "children": [
+                  {
+                    "functionName": "IdleColorTint"
+                  },
+                  {
+                    "functionName": "SetIdleColorTint"
+                  },
+                  {
+                    "functionName": "FocusedColorTint"
+                  },
+                  {
+                    "functionName": "SetFocusedColorTint"
+                  },
+                  {
+                    "functionName": "PressedColorTint"
+                  },
+                  {
+                    "functionName": "SetPressedColorTint"
+                  },
+                  {
+                    "functionName": "FadeInDuration"
+                  },
+                  {
+                    "functionName": "SetFadeInDuration"
+                  },
+                  {
+                    "functionName": "FadeOutDuration"
+                  },
+                  {
+                    "functionName": "SetFadeOutDuration"
+                  },
+                  {
+                    "functionName": "FadeInEasing"
+                  },
+                  {
+                    "functionName": "SetFadeInEasing"
+                  },
+                  {
+                    "functionName": "FadeOutEasing"
+                  },
+                  {
+                    "functionName": "SetFadeOutEasing"
+                  }
+                ]
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -45496,12 +46728,23 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "IsInGameEdition"
+          }
+        ]
+      },
       "eventsBasedBehaviors": [
         {
           "description": "The finite state machine used internally by the button object.",
           "fullName": "Button finite state machine",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "ButtonFSM",
           "objectType": "",
+          "previewIconUrl": "",
           "private": true,
           "eventsFunctions": [
             {
@@ -46596,6 +47839,41 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPostEvents"
+              },
+              {
+                "functionName": "onDeActivate"
+              },
+              {
+                "functionName": "ResetState"
+              },
+              {
+                "functionName": "IsIdle"
+              },
+              {
+                "functionName": "IsClicked"
+              },
+              {
+                "functionName": "IsHovered"
+              },
+              {
+                "functionName": "IsFocused"
+              },
+              {
+                "functionName": "IsPressed"
+              },
+              {
+                "functionName": "IsPressedOutside"
+              },
+              {
+                "functionName": "TouchId"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "true",
@@ -46690,8 +47968,11 @@
         {
           "description": "Change the text style when the button is hovered.",
           "fullName": "Hover text style",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "TextStyleState",
           "objectType": "TextObject::Text",
+          "previewIconUrl": "",
           "private": true,
           "eventsFunctions": [
             {
@@ -47123,6 +48404,20 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "IsHovered"
+              },
+              {
+                "functionName": "SetIsHovered"
+              },
+              {
+                "functionName": "Color"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -47202,8 +48497,11 @@
         {
           "description": "Change the text style when the button is hovered.",
           "fullName": "Hover bitmap text style",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "BitmapTextStyleState",
           "objectType": "BitmapText::BitmapTextObject",
+          "previewIconUrl": "",
           "private": true,
           "eventsFunctions": [
             {
@@ -47569,6 +48867,20 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "IsHovered"
+              },
+              {
+                "functionName": "SetIsHovered"
+              },
+              {
+                "functionName": "Color"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -47647,9 +48959,12 @@
           "defaultName": "Button",
           "description": "Button with a label.",
           "fullName": "Labeled button",
+          "helpPath": "",
+          "iconUrl": "",
           "isInnerAreaFollowingParentSize": true,
           "isUsingLegacyInstancesRenderer": false,
           "name": "PanelSpriteButton",
+          "previewIconUrl": "",
           "objects": [
             {
               "assetStoreId": "",
@@ -49212,6 +50527,56 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "onHotReloading"
+              },
+              {
+                "functionName": "doStepPostEvents"
+              },
+              {
+                "functionName": "IsIdle"
+              },
+              {
+                "functionName": "IsClicked"
+              },
+              {
+                "functionName": "IsHovered"
+              },
+              {
+                "functionName": "IsFocused"
+              },
+              {
+                "functionName": "IsPressed"
+              },
+              {
+                "functionName": "SetLabelText"
+              },
+              {
+                "functionName": "SetLabelTextOp"
+              },
+              {
+                "functionName": "LabelText"
+              },
+              {
+                "functionName": "Activate"
+              },
+              {
+                "functionName": "IsActivated"
+              },
+              {
+                "functionName": "LabelOffset"
+              },
+              {
+                "functionName": "SetLabelOffset"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
