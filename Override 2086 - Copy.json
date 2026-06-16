@@ -213,7 +213,7 @@
       {
         "file": "assets/Floor.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Floor.png\"}",
         "name": "Floor",
         "smoothed": true,
         "userAdded": false
@@ -2301,6 +2301,166 @@
         "name": "..\\..\\Gemini_Generated_Image_x8g9iix8g9iix8g9.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "Assets/north - Copia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/north - Copia.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/crawling3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/crawling3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/crawling2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/crawling2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/crawling .png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets/crawling .png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/climbing.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/climbing.png\"}",
+        "name": "climbing",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/climbing2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/climbing2.png\"}",
+        "name": "climbing2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/climbing3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "climbing3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/crawling4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Assets/crawling4.png\",\"extension\":\".png\"}",
+        "name": "Assets/crawling4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/climbing4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "climbing4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/climbing5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "climbing5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/climbing6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "climbing6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/climbing7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "climbing7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/climbing8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "climbing8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/climbing9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "climbing9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/climbing10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "climbing10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/climbing11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "climbing11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/climbing12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "climbing12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/climbing13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "climbing13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ladder_down.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ladder_down",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -3092,6 +3252,271 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Assets/PlayerFrame_007.png",
+                  "points": [
+                    {
+                      "name": "shoot",
+                      "x": 68.5,
+                      "y": 36
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 46,
+                    "y": 46
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33,
+                        "y": 8
+                      },
+                      {
+                        "x": 60,
+                        "y": 8
+                      },
+                      {
+                        "x": 60,
+                        "y": 81
+                      },
+                      {
+                        "x": 33,
+                        "y": 81
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "climbing",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.3,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "climbing7",
+                  "points": [
+                    {
+                      "name": "shoot",
+                      "x": 68.5,
+                      "y": 36
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 46,
+                    "y": 46
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33,
+                        "y": 8
+                      },
+                      {
+                        "x": 60,
+                        "y": 8
+                      },
+                      {
+                        "x": 60,
+                        "y": 81
+                      },
+                      {
+                        "x": 33,
+                        "y": 81
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "climbing8",
+                  "points": [
+                    {
+                      "name": "shoot",
+                      "x": 68.5,
+                      "y": 36
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 46,
+                    "y": 46
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33,
+                        "y": 8
+                      },
+                      {
+                        "x": 60,
+                        "y": 8
+                      },
+                      {
+                        "x": 60,
+                        "y": 81
+                      },
+                      {
+                        "x": 33,
+                        "y": 81
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "climbing9",
+                  "points": [
+                    {
+                      "name": "shoot",
+                      "x": 68.5,
+                      "y": 36
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 46,
+                    "y": 46
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33,
+                        "y": 8
+                      },
+                      {
+                        "x": 60,
+                        "y": 8
+                      },
+                      {
+                        "x": 60,
+                        "y": 81
+                      },
+                      {
+                        "x": 33,
+                        "y": 81
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "climbing10",
+                  "points": [
+                    {
+                      "name": "shoot",
+                      "x": 68.5,
+                      "y": 36
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 46,
+                    "y": 46
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33,
+                        "y": 8
+                      },
+                      {
+                        "x": 60,
+                        "y": 8
+                      },
+                      {
+                        "x": 60,
+                        "y": 81
+                      },
+                      {
+                        "x": 33,
+                        "y": 81
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "climbing11",
+                  "points": [
+                    {
+                      "name": "shoot",
+                      "x": 68.5,
+                      "y": 36
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 46,
+                    "y": 46
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33,
+                        "y": 8
+                      },
+                      {
+                        "x": 60,
+                        "y": 8
+                      },
+                      {
+                        "x": 60,
+                        "y": 81
+                      },
+                      {
+                        "x": 33,
+                        "y": 81
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "climbing12",
                   "points": [
                     {
                       "name": "shoot",
@@ -4051,6 +4476,7 @@
         {
           "assetStoreId": "",
           "name": "Transition",
+          "persistentUuid": "10f6c61b-c7aa-455d-b22e-d82f87d1b2f6",
           "type": "PrimitiveDrawing::Drawer",
           "variables": [],
           "effects": [],
@@ -4309,7 +4735,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.053645833333337,
+        "zoomFactor": 1.089175118621007,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -4514,8 +4940,8 @@
           "name": "NewTileMap",
           "persistentUuid": "b3c96408-a96b-41b0-a9c7-a3a322f0e51c",
           "width": 0,
-          "x": 429,
-          "y": 348,
+          "x": 430,
+          "y": 350,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [
@@ -6171,214 +6597,25 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyFromTextJustPressed"
-                  },
-                  "parameters": [
-                    "Player",
-                    "\"LShift\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "has_dash_hability",
-                    "True",
-                    "True"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "is_dashing",
-                    "False",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "can_dash",
-                    "True",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetBooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "can_dash",
-                    "False",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "is_dashing",
-                    "True",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlatformBehavior::MaxSpeed"
-                  },
-                  "parameters": [
-                    "Player",
-                    "PlatformerObject",
-                    "=",
-                    "1500"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlatformBehavior::Acceleration"
-                  },
-                  "parameters": [
-                    "Player",
-                    "PlatformerObject",
-                    "=",
-                    "10000"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlatformBehavior::Gravity"
-                  },
-                  "parameters": [
-                    "Player",
-                    "PlatformerObject",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlatformBehavior::PlatformerObjectBehavior::SetCurrentFallSpeed"
-                  },
-                  "parameters": [
-                    "Player",
-                    "PlatformerObject",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "is_dashing",
-                    "False",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlatformBehavior::MaxSpeed"
-                  },
-                  "parameters": [
-                    "Player",
-                    "PlatformerObject",
-                    "=",
-                    "250"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlatformBehavior::Acceleration"
-                  },
-                  "parameters": [
-                    "Player",
-                    "PlatformerObject",
-                    "=",
-                    "1500"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlatformBehavior::Gravity"
-                  },
-                  "parameters": [
-                    "Player",
-                    "PlatformerObject",
-                    "=",
-                    "1000"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "can_dash",
-                    "True",
-                    ""
-                  ]
-                }
-              ]
-            },
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Ounce",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
               "folded": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "is_dashing",
-                    "True",
-                    ""
-                  ]
-                }
-              ],
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Ounce",
+              "conditions": [],
               "actions": [],
               "events": [
                 {
@@ -6386,22 +6623,139 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Ounce",
+                        "TriggerJump",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PosY"
                       },
                       "parameters": [
                         "Player",
-                        "Flippable"
+                        "<",
+                        "Ounce.Y()"
                       ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "value": "PlatformBehavior::SimulateLeftKey"
+                        "value": "PlatformBehavior::SimulateJumpKey"
                       },
                       "parameters": [
-                        "Player",
+                        "Ounce",
                         "PlatformerObject"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "Ounce",
+                        "Player",
+                        "300",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsOnFloor"
+                      },
+                      "parameters": [
+                        "Ounce",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Ounce",
+                        "can_pounce",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateJumpKey"
+                      },
+                      "parameters": [
+                        "Ounce",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Ounce",
+                        "can_pounce",
+                        "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Ounce",
+                        "can_pounce",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                      },
+                      "parameters": [
+                        "Ounce",
+                        "PlatformerObject"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Ounce",
+                        "Animation",
+                        "=",
+                        "\"movement\""
                       ]
                     }
                   ]
@@ -6412,482 +6766,199 @@
                     {
                       "type": {
                         "inverted": true,
-                        "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                        "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
                       },
                       "parameters": [
-                        "Player",
-                        "Flippable"
+                        "Ounce",
+                        "PlatformerObject"
                       ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "value": "PlatformBehavior::SimulateRightKey"
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
                       "parameters": [
-                        "Player",
-                        "PlatformerObject"
+                        "Ounce",
+                        "Animation",
+                        "=",
+                        "\"idle\""
                       ]
                     }
                   ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PlatformBehavior::IsOnFloor"
-                  },
-                  "parameters": [
-                    "Player",
-                    "PlatformerObject"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetBooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "used_double_jump",
-                    "False",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyFromTextPressed"
-                  },
-                  "parameters": [
-                    "Player",
-                    "\"w\""
-                  ]
                 },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "PlatformBehavior::IsOnFloor"
-                  },
-                  "parameters": [
-                    "Player",
-                    "PlatformerObject"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "has_double_jump_hability",
-                    "True",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "used_double_jump",
-                    "False",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlatformBehavior::SetCanJump"
-                  },
-                  "parameters": [
-                    "Player",
-                    "PlatformerObject"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlatformBehavior::SimulateJumpKey"
-                  },
-                  "parameters": [
-                    "Player",
-                    "PlatformerObject"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "used_double_jump",
-                    "True",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Ounce",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Distance"
-                  },
-                  "parameters": [
-                    "Ounce",
-                    "Player",
-                    "300",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlatformBehavior::IsOnFloor"
-                  },
-                  "parameters": [
-                    "Ounce",
-                    "PlatformerObject"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Ounce",
-                    "can_pounce",
-                    "True",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlatformBehavior::SimulateJumpKey"
-                  },
-                  "parameters": [
-                    "Ounce",
-                    "PlatformerObject"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Ounce",
-                    "can_pounce",
-                    "False",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "5"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Ounce",
-                    "can_pounce",
-                    "True",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
-                  },
-                  "parameters": [
-                    "Ounce",
-                    "PlatformerObject"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Ounce",
-                    "Animation",
-                    "=",
-                    "\"movement\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
-                  },
-                  "parameters": [
-                    "Ounce",
-                    "PlatformerObject"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Ounce",
-                    "Animation",
-                    "=",
-                    "\"idle\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Distance"
-                  },
-                  "parameters": [
-                    "Ounce",
-                    "Player",
-                    "400",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "Player",
-                        "<",
-                        "Ounce.X()"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateLeftKey"
+                        "value": "Distance"
                       },
                       "parameters": [
                         "Ounce",
-                        "PlatformerObject"
+                        "Player",
+                        "400",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "Player",
+                            "<",
+                            "Ounce.X()"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateLeftKey"
+                          },
+                          "parameters": [
+                            "Ounce",
+                            "PlatformerObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "FlippableCapability::FlippableBehavior::FlipX"
+                          },
+                          "parameters": [
+                            "Ounce",
+                            "Flippable",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "Player",
+                            ">",
+                            "Ounce.X()"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateRightKey"
+                          },
+                          "parameters": [
+                            "Ounce",
+                            "PlatformerObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "FlippableCapability::FlippableBehavior::FlipX"
+                          },
+                          "parameters": [
+                            "Ounce",
+                            "Flippable",
+                            "yes"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Ounce",
+                        "Player",
+                        "",
+                        "",
+                        ""
                       ]
                     },
                     {
                       "type": {
-                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                        "value": "BuiltinCommonInstructions::Once"
                       },
-                      "parameters": [
-                        "Ounce",
-                        "Flippable",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "Player",
-                        ">",
-                        "Ounce.X()"
-                      ]
+                      "parameters": []
                     }
                   ],
-                  "actions": [
+                  "actions": [],
+                  "events": [
                     {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateRightKey"
-                      },
-                      "parameters": [
-                        "Ounce",
-                        "PlatformerObject"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "Player",
+                            "<",
+                            "Ounce.X()"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AddForceXY"
+                          },
+                          "parameters": [
+                            "Player",
+                            "-600",
+                            "-200",
+                            ""
+                          ]
+                        }
                       ]
                     },
                     {
-                      "type": {
-                        "value": "FlippableCapability::FlippableBehavior::FlipX"
-                      },
-                      "parameters": [
-                        "Ounce",
-                        "Flippable",
-                        "yes"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "Player",
+                            ">",
+                            "Ounce.X()"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AddForceXY"
+                          },
+                          "parameters": [
+                            "Player",
+                            "600",
+                            "-200",
+                            ""
+                          ]
+                        }
                       ]
                     }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Ounce",
-                    "Player",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "Player",
-                        "<",
-                        "Ounce.X()"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AddForceXY"
-                      },
-                      "parameters": [
-                        "Player",
-                        "-600",
-                        "-200",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "Player",
-                        ">",
-                        "Ounce.X()"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AddForceXY"
-                      },
-                      "parameters": [
-                        "Player",
-                        "600",
-                        "-200",
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Ounce",
-                    "TriggerJump",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosY"
-                  },
-                  "parameters": [
-                    "Player",
-                    "<",
-                    "Ounce.Y()"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlatformBehavior::SimulateJumpKey"
-                  },
-                  "parameters": [
-                    "Ounce",
-                    "PlatformerObject"
                   ]
                 }
               ]
@@ -9384,57 +9455,65 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Eel",
+              "conditions": [],
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "CompareObjectTimer"
-                  },
-                  "parameters": [
-                    "Eel",
-                    "\"Jump\"",
-                    ">=",
-                    "Eel.jump_time"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlatformBehavior::IsOnFloor"
-                  },
-                  "parameters": [
-                    "Eel",
-                    "PlatformerObject"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlatformBehavior::SimulateJumpKey"
-                  },
-                  "parameters": [
-                    "Eel",
-                    "PlatformerObject"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Eel",
-                    "\"Jump\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Eel",
-                    "jump_time",
-                    "=",
-                    "RandomFloatInRange(2, 4.5)"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "Eel",
+                        "\"Jump\"",
+                        ">=",
+                        "Eel.jump_time"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsOnFloor"
+                      },
+                      "parameters": [
+                        "Eel",
+                        "PlatformerObject"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateJumpKey"
+                      },
+                      "parameters": [
+                        "Eel",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Eel",
+                        "\"Jump\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Eel",
+                        "jump_time",
+                        "=",
+                        "RandomFloatInRange(2, 4.5)"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -9447,7 +9526,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10355,56 +10433,165 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringObjectVariable"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "state",
-                    "=",
-                    "\"patrol\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "Animation",
-                    "=",
-                    "\"movement\""
-                  ]
-                }
-              ],
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Alligator",
+              "conditions": [],
+              "actions": [],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": true,
-                        "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                        "value": "StringObjectVariable"
                       },
                       "parameters": [
                         "Alligator",
-                        "Flippable"
+                        "state",
+                        "=",
+                        "\"patrol\""
                       ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "value": "PlatformBehavior::SimulateLeftKey"
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
                       "parameters": [
                         "Alligator",
-                        "PlatformerObject"
+                        "Animation",
+                        "=",
+                        "\"movement\""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            "Flippable"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateLeftKey"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            "Flippable"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateRightKey"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Alligator",
+                            "400",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "abs(Player.CenterY() - Alligator.CenterY())",
+                            "<=",
+                            "50"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetStringObjectVariable"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            "state",
+                            "=",
+                            "\"preparing\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::MaxSpeed"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            "PlatformerObject",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            "Animation",
+                            "=",
+                            "\"idle\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            "\"attack\""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -10414,48 +10601,256 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                        "value": "StringObjectVariable"
                       },
                       "parameters": [
                         "Alligator",
-                        "Flippable"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateRightKey"
-                      },
-                      "parameters": [
-                        "Alligator",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "Distance"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Alligator",
-                        "400",
-                        ""
+                        "state",
+                        "=",
+                        "\"preparing\""
                       ]
                     },
                     {
                       "type": {
-                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                        "value": "CompareObjectTimer"
                       },
                       "parameters": [
-                        "abs(Player.CenterY() - Alligator.CenterY())",
-                        "<=",
-                        "50"
+                        "Alligator",
+                        "\"attack\"",
+                        ">=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Alligator",
+                        "Animation",
+                        "=",
+                        "\"idle\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringObjectVariable"
+                      },
+                      "parameters": [
+                        "Alligator",
+                        "state",
+                        "=",
+                        "\"attacking\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::MaxSpeed"
+                      },
+                      "parameters": [
+                        "Alligator",
+                        "PlatformerObject",
+                        "=",
+                        "600"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Alligator",
+                        "\"attack\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Alligator",
+                        "state",
+                        "=",
+                        "\"preparing\""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CenterX"
+                          },
+                          "parameters": [
+                            "Player",
+                            ">",
+                            "Alligator.CenterX()"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "FlippableCapability::FlippableBehavior::FlipX"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            "Flippable",
+                            "yes"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CenterX"
+                          },
+                          "parameters": [
+                            "Player",
+                            "<",
+                            "Alligator.CenterX()"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "FlippableCapability::FlippableBehavior::FlipX"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            "Flippable",
+                            "no"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Alligator",
+                        "state",
+                        "=",
+                        "\"attacking\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Alligator",
+                        "Animation",
+                        "=",
+                        "\"attack\""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            "Flippable"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateRightKey"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            "Flippable"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateLeftKey"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Alligator",
+                        "state",
+                        "=",
+                        "\"attacking\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "Alligator",
+                        "\"attack\"",
+                        ">=",
+                        "2"
                       ]
                     },
                     {
@@ -10474,7 +10869,7 @@
                         "Alligator",
                         "state",
                         "=",
-                        "\"preparing\""
+                        "\"recovering\""
                       ]
                     },
                     {
@@ -10509,126 +10904,60 @@
                       ]
                     }
                   ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringObjectVariable"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "state",
-                    "=",
-                    "\"preparing\""
-                  ]
                 },
-                {
-                  "type": {
-                    "value": "CompareObjectTimer"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "\"attack\"",
-                    ">=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "Animation",
-                    "=",
-                    "\"idle\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringObjectVariable"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "state",
-                    "=",
-                    "\"attacking\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlatformBehavior::MaxSpeed"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "PlatformerObject",
-                    "=",
-                    "600"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "\"attack\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringObjectVariable"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "state",
-                    "=",
-                    "\"preparing\""
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "CenterX"
+                        "value": "StringObjectVariable"
                       },
                       "parameters": [
-                        "Player",
-                        ">",
-                        "Alligator.CenterX()"
+                        "Alligator",
+                        "state",
+                        "=",
+                        "\"recovering\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "Alligator",
+                        "\"attack\"",
+                        ">=",
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                        "value": "SetStringObjectVariable"
                       },
                       "parameters": [
                         "Alligator",
-                        "Flippable",
-                        "yes"
+                        "state",
+                        "=",
+                        "\"patrol\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::MaxSpeed"
+                      },
+                      "parameters": [
+                        "Alligator",
+                        "PlatformerObject",
+                        "=",
+                        "50"
                       ]
                     }
                   ]
@@ -10638,320 +10967,77 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "CenterX"
+                        "value": "CollisionNP"
                       },
                       "parameters": [
-                        "Player",
-                        "<",
-                        "Alligator.CenterX()"
+                        "Alligator",
+                        "Bumper",
+                        "",
+                        "",
+                        ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
-                  "actions": [
+                  "actions": [],
+                  "events": [
                     {
-                      "type": {
-                        "value": "FlippableCapability::FlippableBehavior::FlipX"
-                      },
-                      "parameters": [
-                        "Alligator",
-                        "Flippable",
-                        "no"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CenterX"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            "<",
+                            "Bumper.CenterX()"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "FlippableCapability::FlippableBehavior::FlipX"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            "Flippable",
+                            "no"
+                          ]
+                        }
                       ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringObjectVariable"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "state",
-                    "=",
-                    "\"attacking\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "Animation",
-                    "=",
-                    "\"attack\""
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
+                    },
                     {
-                      "type": {
-                        "value": "FlippableCapability::FlippableBehavior::FlippedX"
-                      },
-                      "parameters": [
-                        "Alligator",
-                        "Flippable"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateRightKey"
-                      },
-                      "parameters": [
-                        "Alligator",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "FlippableCapability::FlippableBehavior::FlippedX"
-                      },
-                      "parameters": [
-                        "Alligator",
-                        "Flippable"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateLeftKey"
-                      },
-                      "parameters": [
-                        "Alligator",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringObjectVariable"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "state",
-                    "=",
-                    "\"attacking\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CompareObjectTimer"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "\"attack\"",
-                    ">=",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringObjectVariable"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "state",
-                    "=",
-                    "\"recovering\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlatformBehavior::MaxSpeed"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "PlatformerObject",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "Animation",
-                    "=",
-                    "\"idle\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "\"attack\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringObjectVariable"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "state",
-                    "=",
-                    "\"recovering\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CompareObjectTimer"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "\"attack\"",
-                    ">=",
-                    "3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringObjectVariable"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "state",
-                    "=",
-                    "\"patrol\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlatformBehavior::MaxSpeed"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "PlatformerObject",
-                    "=",
-                    "50"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "Bumper",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CenterX"
-                      },
-                      "parameters": [
-                        "Alligator",
-                        "<",
-                        "Bumper.CenterX()"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "FlippableCapability::FlippableBehavior::FlipX"
-                      },
-                      "parameters": [
-                        "Alligator",
-                        "Flippable",
-                        "no"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CenterX"
-                      },
-                      "parameters": [
-                        "Alligator",
-                        ">",
-                        "Bumper.CenterX()"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "FlippableCapability::FlippableBehavior::FlipX"
-                      },
-                      "parameters": [
-                        "Alligator",
-                        "Flippable",
-                        "yes"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CenterX"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            ">",
+                            "Bumper.CenterX()"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "FlippableCapability::FlippableBehavior::FlipX"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            "Flippable",
+                            "yes"
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -11732,7 +11818,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4378826865860819,
+        "zoomFactor": 0.7444005671963396,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -11784,8 +11870,8 @@
           "name": "Wall",
           "persistentUuid": "5f66daf4-1343-4fce-9843-f820c6869b09",
           "width": 64,
-          "x": -60,
-          "y": -295,
+          "x": -67,
+          "y": -335,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -11801,8 +11887,8 @@
           "name": "Wall",
           "persistentUuid": "28e0ab05-be4a-424b-b8bb-efaaf4c9b38a",
           "width": 64,
-          "x": 1358,
-          "y": -342,
+          "x": 1404,
+          "y": -344,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -11849,7 +11935,7 @@
           "layer": "Background Layer",
           "name": "Floor",
           "persistentUuid": "c8238491-4447-461e-82ab-19dfdb6ea913",
-          "width": 506,
+          "width": 376,
           "x": 896,
           "y": 698,
           "zOrder": 27,
@@ -11870,23 +11956,6 @@
           "x": 896,
           "y": 663,
           "zOrder": 51,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 396,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Alligator",
-          "persistentUuid": "8c7103ba-99a4-428d-8b65-22995933e897",
-          "width": 436,
-          "x": 927,
-          "y": 444,
-          "zOrder": 45,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11946,14 +12015,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 464,
+          "height": 433,
           "keepRatio": true,
           "layer": "",
           "name": "Tilemap",
           "persistentUuid": "9c2fb1ad-5799-4e69-bd80-67fd0447cb14",
-          "width": 1519,
-          "x": -43,
-          "y": 329,
+          "width": 1530,
+          "x": -50,
+          "y": 344,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [
@@ -11990,9 +12059,9 @@
           "layer": "",
           "name": "Floor",
           "persistentUuid": "7de1c02a-ac01-41fd-9b6d-664cac99342b",
-          "width": 533,
-          "x": 948,
-          "y": 342,
+          "width": 537,
+          "x": 940,
+          "y": 358,
           "zOrder": 42,
           "numberProperties": [],
           "stringProperties": [],
@@ -12002,14 +12071,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 64,
+          "height": 46,
           "keepRatio": true,
           "layer": "",
           "name": "Floor",
           "persistentUuid": "cc824019-5787-480c-8766-4d3ed01a456c",
-          "width": 628,
+          "width": 621,
           "x": -10,
-          "y": 340,
+          "y": 358,
           "zOrder": 42,
           "numberProperties": [],
           "stringProperties": [],
@@ -12018,16 +12087,16 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 396,
+          "depth": 0.573394495412844,
+          "height": 227.06422018348627,
           "keepRatio": true,
           "layer": "",
           "name": "Alligator",
           "persistentUuid": "c468a1fd-80b1-44f4-be3f-6a462c550664",
-          "width": 436,
-          "x": 422,
-          "y": 294,
-          "zOrder": 45,
+          "width": 250,
+          "x": 515,
+          "y": 394,
+          "zOrder": 250,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12070,31 +12139,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 396,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Alligator",
-          "persistentUuid": "7b4cacd9-2a4d-4937-b088-6b2309ca1ee6",
-          "width": 436,
-          "x": 49,
-          "y": 88,
-          "zOrder": 45,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 30,
           "keepRatio": true,
           "layer": "",
           "name": "Bumper",
           "persistentUuid": "a8888e35-e550-46c1-a04b-e155488ca435",
           "width": 41,
-          "x": 591,
-          "y": 314,
+          "x": 575,
+          "y": 325,
           "zOrder": 52,
           "numberProperties": [],
           "stringProperties": [],
@@ -12110,8 +12162,8 @@
           "name": "Bumper",
           "persistentUuid": "45294a55-2573-402d-a10c-986b79b1b484",
           "width": 41,
-          "x": -28,
-          "y": 310,
+          "x": -19,
+          "y": 324,
           "zOrder": 52,
           "numberProperties": [],
           "stringProperties": [],
@@ -12127,8 +12179,8 @@
           "name": "Bumper",
           "persistentUuid": "2e2c7176-8a3d-47ae-bb6b-0e64cedcb147",
           "width": 41,
-          "x": 944,
-          "y": 314,
+          "x": 946,
+          "y": 322,
           "zOrder": 52,
           "numberProperties": [],
           "stringProperties": [],
@@ -12153,23 +12205,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 396,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Alligator",
-          "persistentUuid": "66af95d3-c7dd-4456-a1b5-829753632d18",
-          "width": 436,
-          "x": 904,
-          "y": 89,
-          "zOrder": 45,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -12188,15 +12223,150 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 46,
+          "height": 73,
           "keepRatio": true,
           "layer": "",
           "name": "Ladder",
           "persistentUuid": "51d04c19-259c-434f-89ea-aedd3aa3be54",
-          "width": 77,
-          "x": 1267,
-          "y": 655,
+          "width": 81,
+          "x": 1266,
+          "y": 631,
           "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0.573394495412844,
+          "height": 227.06422018348627,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Alligator",
+          "persistentUuid": "524acea5-ec7b-49c1-8332-10ee08dc885d",
+          "width": 250,
+          "x": 182,
+          "y": 188,
+          "zOrder": 250,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0.573394495412844,
+          "height": 227.06422018348627,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Alligator",
+          "persistentUuid": "b46c0eab-d1bf-4309-8ad2-b2a28986ec7a",
+          "width": 250,
+          "x": 965,
+          "y": 194,
+          "zOrder": 250,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0.573394495412844,
+          "height": 227.06422018348627,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Alligator",
+          "persistentUuid": "33eb36e5-b243-4174-a2d3-d898e526d21f",
+          "width": 250,
+          "x": 954,
+          "y": 535,
+          "zOrder": 250,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 280,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ladder_down",
+          "persistentUuid": "4c2f8881-e9eb-4ef3-8b6b-92f01335dd19",
+          "width": 66,
+          "x": 1272,
+          "y": 596,
+          "zOrder": 251,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Background Layer",
+          "name": "Floor",
+          "persistentUuid": "93e7eae6-599b-49e6-87a9-1d4e869c92a6",
+          "width": 373,
+          "x": 1339,
+          "y": 699,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlatformThruFloor",
+          "persistentUuid": "db07b627-c905-4957-a718-a2a26236fa7a",
+          "width": 114,
+          "x": 1237,
+          "y": 698,
+          "zOrder": 252,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Background Layer",
+          "name": "Floor",
+          "persistentUuid": "865df5e1-9668-4891-8038-bde3451cbfc6",
+          "width": 373,
+          "x": 1192,
+          "y": 762,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "transição",
+          "persistentUuid": "32edc3d6-3191-4a14-a38d-0a8f4a12184b",
+          "width": 0,
+          "x": 1297,
+          "y": 720,
+          "zOrder": 253,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12277,7 +12447,7 @@
             "rowCount": 25,
             "columnCount": 25,
             "tileSize": 16,
-            "tilesWithHitBox": "0,25,50,75,100,1,26,51,76,101,2,27,52,77,102,3,28,53,78,103,4,29,54,79,104"
+            "tilesWithHitBox": "29,25,50,75,101,102,103,100,104,79,54,4,0"
           }
         },
         {
@@ -13073,7 +13243,15 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "Ladder",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -13124,6 +13302,111 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "ladder_down",
+          "persistentUuid": "eb4f0a1d-e7ff-4d11-8917-e60a545de870",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "Ladder",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "ladder_down",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ladder_down",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "transição",
+          "persistentUuid": "6ec38d20-5deb-4b2d-89e2-72b62a36ea35",
+          "type": "PrimitiveDrawing::Drawer",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "FlashTransitionPainter",
+              "type": "FlashTransitionPainter::FlashTransitionPainter",
+              "Progress": 0,
+              "Duration": 0,
+              "Type": "",
+              "Direction": "",
+              "MaxOpacity": 255
+            }
+          ],
+          "fillOpacity": 255,
+          "outlineSize": 1,
+          "outlineOpacity": 255,
+          "absoluteCoordinates": false,
+          "clearBetweenFrames": true,
+          "antialiasing": "none",
+          "fillColor": {
+            "r": 255,
+            "g": 255,
+            "b": 255
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -13145,7 +13428,13 @@
             "objectName": "Bumper"
           },
           {
+            "objectName": "transição"
+          },
+          {
             "objectName": "Ladder"
+          },
+          {
+            "objectName": "ladder_down"
           }
         ]
       },
@@ -13270,6 +13559,17 @@
                 "=",
                 "\"patrol\""
               ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "ladder_down",
+                "Opacity",
+                "=",
+                "0"
+              ]
             }
           ]
         },
@@ -13370,7 +13670,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13466,6 +13765,16 @@
                   "parameters": [
                     "Player",
                     "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateControl"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject",
+                    "\"Ladder\""
                   ]
                 }
               ]
@@ -13939,6 +14248,33 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "PlatformBehavior::IsOnLadder"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"climbing\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "value": "KeyFromTextPressed"
                   },
                   "parameters": [
@@ -14264,6 +14600,62 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "PlatformThruFloor",
+                    "Player",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsOnLadder"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Opacity",
+                    "=",
+                    "30"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Else",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Opacity",
+                    "=",
+                    "255"
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -14278,56 +14670,165 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringObjectVariable"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "state",
-                    "=",
-                    "\"patrol\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "Animation",
-                    "=",
-                    "\"movement\""
-                  ]
-                }
-              ],
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Alligator",
+              "conditions": [],
+              "actions": [],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": true,
-                        "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                        "value": "StringObjectVariable"
                       },
                       "parameters": [
                         "Alligator",
-                        "Flippable"
+                        "state",
+                        "=",
+                        "\"patrol\""
                       ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "value": "PlatformBehavior::SimulateLeftKey"
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
                       "parameters": [
                         "Alligator",
-                        "PlatformerObject"
+                        "Animation",
+                        "=",
+                        "\"movement\""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            "Flippable"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateLeftKey"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            "Flippable"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateRightKey"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Alligator",
+                            "400",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "abs(Player.CenterY() - Alligator.CenterY())",
+                            "<=",
+                            "50"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetStringObjectVariable"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            "state",
+                            "=",
+                            "\"preparing\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::MaxSpeed"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            "PlatformerObject",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            "Animation",
+                            "=",
+                            "\"idle\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            "\"attack\""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -14337,48 +14838,256 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                        "value": "StringObjectVariable"
                       },
                       "parameters": [
                         "Alligator",
-                        "Flippable"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateRightKey"
-                      },
-                      "parameters": [
-                        "Alligator",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "Distance"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Alligator",
-                        "400",
-                        ""
+                        "state",
+                        "=",
+                        "\"preparing\""
                       ]
                     },
                     {
                       "type": {
-                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                        "value": "CompareObjectTimer"
                       },
                       "parameters": [
-                        "abs(Player.CenterY() - Alligator.CenterY())",
-                        "<=",
-                        "50"
+                        "Alligator",
+                        "\"attack\"",
+                        ">=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Alligator",
+                        "Animation",
+                        "=",
+                        "\"idle\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringObjectVariable"
+                      },
+                      "parameters": [
+                        "Alligator",
+                        "state",
+                        "=",
+                        "\"attacking\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::MaxSpeed"
+                      },
+                      "parameters": [
+                        "Alligator",
+                        "PlatformerObject",
+                        "=",
+                        "600"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Alligator",
+                        "\"attack\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Alligator",
+                        "state",
+                        "=",
+                        "\"preparing\""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CenterX"
+                          },
+                          "parameters": [
+                            "Player",
+                            ">",
+                            "Alligator.CenterX()"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "FlippableCapability::FlippableBehavior::FlipX"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            "Flippable",
+                            "yes"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CenterX"
+                          },
+                          "parameters": [
+                            "Player",
+                            "<",
+                            "Alligator.CenterX()"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "FlippableCapability::FlippableBehavior::FlipX"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            "Flippable",
+                            "no"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Alligator",
+                        "state",
+                        "=",
+                        "\"attacking\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Alligator",
+                        "Animation",
+                        "=",
+                        "\"attack\""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            "Flippable"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateRightKey"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            "Flippable"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateLeftKey"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Alligator",
+                        "state",
+                        "=",
+                        "\"attacking\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "Alligator",
+                        "\"attack\"",
+                        ">=",
+                        "2"
                       ]
                     },
                     {
@@ -14397,7 +15106,7 @@
                         "Alligator",
                         "state",
                         "=",
-                        "\"preparing\""
+                        "\"recovering\""
                       ]
                     },
                     {
@@ -14432,126 +15141,60 @@
                       ]
                     }
                   ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringObjectVariable"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "state",
-                    "=",
-                    "\"preparing\""
-                  ]
                 },
-                {
-                  "type": {
-                    "value": "CompareObjectTimer"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "\"attack\"",
-                    ">=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "Animation",
-                    "=",
-                    "\"idle\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringObjectVariable"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "state",
-                    "=",
-                    "\"attacking\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlatformBehavior::MaxSpeed"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "PlatformerObject",
-                    "=",
-                    "600"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "\"attack\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringObjectVariable"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "state",
-                    "=",
-                    "\"preparing\""
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "CenterX"
+                        "value": "StringObjectVariable"
                       },
                       "parameters": [
-                        "Player",
-                        ">",
-                        "Alligator.CenterX()"
+                        "Alligator",
+                        "state",
+                        "=",
+                        "\"recovering\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "Alligator",
+                        "\"attack\"",
+                        ">=",
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                        "value": "SetStringObjectVariable"
                       },
                       "parameters": [
                         "Alligator",
-                        "Flippable",
-                        "yes"
+                        "state",
+                        "=",
+                        "\"patrol\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::MaxSpeed"
+                      },
+                      "parameters": [
+                        "Alligator",
+                        "PlatformerObject",
+                        "=",
+                        "50"
                       ]
                     }
                   ]
@@ -14561,314 +15204,77 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "CenterX"
+                        "value": "CollisionNP"
                       },
                       "parameters": [
-                        "Player",
-                        "<",
-                        "Alligator.CenterX()"
+                        "Alligator",
+                        "Bumper",
+                        "",
+                        "",
+                        ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
-                  "actions": [
+                  "actions": [],
+                  "events": [
                     {
-                      "type": {
-                        "value": "FlippableCapability::FlippableBehavior::FlipX"
-                      },
-                      "parameters": [
-                        "Alligator",
-                        "Flippable",
-                        "no"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CenterX"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            "<",
+                            "Bumper.CenterX()"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "FlippableCapability::FlippableBehavior::FlipX"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            "Flippable",
+                            "no"
+                          ]
+                        }
                       ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringObjectVariable"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "state",
-                    "=",
-                    "\"attacking\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "Animation",
-                    "=",
-                    "\"attack\""
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
+                    },
                     {
-                      "type": {
-                        "value": "FlippableCapability::FlippableBehavior::FlippedX"
-                      },
-                      "parameters": [
-                        "Alligator",
-                        "Flippable"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateRightKey"
-                      },
-                      "parameters": [
-                        "Alligator",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "FlippableCapability::FlippableBehavior::FlippedX"
-                      },
-                      "parameters": [
-                        "Alligator",
-                        "Flippable"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateLeftKey"
-                      },
-                      "parameters": [
-                        "Alligator",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringObjectVariable"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "state",
-                    "=",
-                    "\"attacking\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CompareObjectTimer"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "\"attack\"",
-                    ">=",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringObjectVariable"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "state",
-                    "=",
-                    "\"recovering\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlatformBehavior::MaxSpeed"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "PlatformerObject",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "Animation",
-                    "=",
-                    "\"idle\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "\"attack\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringObjectVariable"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "state",
-                    "=",
-                    "\"recovering\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CompareObjectTimer"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "\"attack\"",
-                    ">=",
-                    "3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringObjectVariable"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "state",
-                    "=",
-                    "\"patrol\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlatformBehavior::MaxSpeed"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "PlatformerObject",
-                    "=",
-                    "50"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Alligator",
-                    "Bumper",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CenterX"
-                      },
-                      "parameters": [
-                        "Alligator",
-                        "<",
-                        "Bumper.CenterX()"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "FlippableCapability::FlippableBehavior::FlipX"
-                      },
-                      "parameters": [
-                        "Alligator",
-                        "Flippable",
-                        "no"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CenterX"
-                      },
-                      "parameters": [
-                        "Alligator",
-                        ">",
-                        "Bumper.CenterX()"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "FlippableCapability::FlippableBehavior::FlipX"
-                      },
-                      "parameters": [
-                        "Alligator",
-                        "Flippable",
-                        "yes"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CenterX"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            ">",
+                            "Bumper.CenterX()"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "FlippableCapability::FlippableBehavior::FlipX"
+                          },
+                          "parameters": [
+                            "Alligator",
+                            "Flippable",
+                            "yes"
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -15170,6 +15576,55 @@
                     "<=",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsOnLadder"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+                  },
+                  "parameters": [
+                    "transição",
+                    "FlashTransitionPainter",
+                    "\"0,0,0\"",
+                    "1",
+                    "\"Flash\"",
+                    "\"Forward\"",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffectIsEnd"
+                  },
+                  "parameters": [
+                    "transição",
+                    "FlashTransitionPainter",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -15181,14 +15636,6 @@
                     "",
                     "\"Phase4\"",
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "2"
                   ]
                 }
               ]
@@ -15390,6 +15837,10 @@
           "type": "Flash::Flash"
         },
         {
+          "name": "FlashTransitionPainter",
+          "type": "FlashTransitionPainter::FlashTransitionPainter"
+        },
+        {
           "name": "Flippable",
           "type": "FlippableCapability::FlippableBehavior"
         },
@@ -15445,7 +15896,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4526482353141852,
+        "zoomFactor": 0.46791168321921756,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -15838,15 +16289,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 228.515625,
+          "depth": 1,
+          "height": 189,
           "keepRatio": true,
           "layer": "",
           "name": "Ladder",
           "persistentUuid": "1c24bbc6-1d11-42d3-9c97-e74aeb8b2fbf",
           "width": 50,
-          "x": 263,
-          "y": -9,
+          "x": 256,
+          "y": -7,
           "zOrder": -4,
           "numberProperties": [],
           "stringProperties": [],
@@ -16931,6 +17382,16 @@
                     "Player",
                     "PlatformerObject"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateControl"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject",
+                    "\"Ladder\""
+                  ]
                 }
               ]
             },
@@ -17050,6 +17511,17 @@
                 },
                 {
                   "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "!=",
+                    "\"climbing\""
+                  ]
+                },
+                {
+                  "type": {
                     "inverted": true,
                     "value": "PlatformBehavior::IsOnLadder"
                   },
@@ -17107,55 +17579,6 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "PlatformBehavior::IsOnLadder"
-                  },
-                  "parameters": [
-                    "Player",
-                    "PlatformerObject"
-                  ]
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "PlatformBehavior::IsOnFloor"
-                  },
-                  "parameters": [
-                    "Player",
-                    "PlatformerObject"
-                  ]
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "AnimatableCapability::AnimatableBehavior::Name"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Animation",
-                    "=",
-                    "\"idle-north\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Animation",
-                    "=",
-                    "\"idle-north\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
                     "value": "PlatformBehavior::IsJumping"
                   },
                   "parameters": [
@@ -17171,6 +17594,17 @@
                   "parameters": [
                     "Player",
                     "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "!=",
+                    "\"climbing\""
                   ]
                 }
               ],
@@ -17549,6 +17983,43 @@
                     "used_double_jump",
                     "True",
                     ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsOnLadder"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"climbing\""
                   ]
                 }
               ]
