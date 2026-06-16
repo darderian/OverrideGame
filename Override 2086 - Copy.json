@@ -2461,6 +2461,18 @@
         "name": "ladder_down",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Sign 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sign 1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Background Element/4cd8705fb33cbd987922438a412c5b33d59f379fa3f2c98ef7e9b537c2c957b4_Sign 1.png",
+          "name": "Sign 1.png"
+        }
       }
     ]
   },
@@ -7259,20 +7271,20 @@
               "actions": [
                 {
                   "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Scene"
                   },
                   "parameters": [
                     "",
                     "\"Phase2\"",
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "2"
                   ]
                 }
               ]
@@ -7599,7 +7611,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6519202405202669,
+        "zoomFactor": 0.8500000000000022,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -7701,8 +7713,8 @@
           "name": "Tilemap",
           "persistentUuid": "a8395213-50f3-44cc-b570-38baff88d2c1",
           "width": 582,
-          "x": 1349,
-          "y": 196,
+          "x": 1346,
+          "y": 257,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [
@@ -7998,8 +8010,8 @@
           "opacity": 13,
           "persistentUuid": "3f0a34e6-6fc1-4f08-a45a-46429fb8f593",
           "width": 575,
-          "x": 1355,
-          "y": 212,
+          "x": 1347,
+          "y": 268,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -8026,14 +8038,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1334,
+          "height": 977,
           "keepRatio": true,
           "layer": "",
           "name": "Wall",
           "persistentUuid": "28e0ab05-be4a-424b-b8bb-efaaf4c9b38a",
           "width": 64,
           "x": 1820,
-          "y": -83,
+          "y": 274,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -8187,6 +8199,57 @@
           "x": 229,
           "y": 899,
           "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 272,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlatformThruFloor",
+          "persistentUuid": "75041873-bd6f-4777-be27-96aa630d0b4f",
+          "width": 64,
+          "x": 1819,
+          "y": -2,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 269,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "9608e138-c407-4c20-bf1e-fa0477a6d8c2",
+          "width": 64,
+          "x": 1879,
+          "y": 1,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 108,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Sign_1",
+          "persistentUuid": "9e0107bb-d4a3-4188-84a1-8feb8f43adce",
+          "width": 98,
+          "x": 1709,
+          "y": 163,
+          "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9184,6 +9247,67 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "0333062a6d181ed5756aad931aecc8118da4a37c481928b72839dd4dc9d27f47",
+          "name": "Sign_1",
+          "persistentUuid": "dc096dae-e475-4851-9fef-bb699bfb2d92",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sign 1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 33,
+                            "y": 0
+                          },
+                          {
+                            "x": 33,
+                            "y": 58
+                          },
+                          {
+                            "x": 0,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -9206,6 +9330,9 @@
           },
           {
             "objectName": "Bumper"
+          },
+          {
+            "objectName": "Sign_1"
           }
         ]
       },
@@ -9349,6 +9476,17 @@
               "parameters": [
                 "Eel",
                 "\"Jump\""
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "PlatformThruFloor",
+                "Opacity",
+                "=",
+                "0"
               ]
             }
           ]
@@ -11543,9 +11681,29 @@
                     "<=",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "PlatformThruFloor",
+                    "Player",
+                    "",
+                    "",
+                    ""
+                  ]
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
                 {
                   "type": {
                     "value": "Scene"
@@ -11554,14 +11712,6 @@
                     "",
                     "\"Phase3\"",
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "2"
                   ]
                 }
               ]
@@ -12087,23 +12237,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0.573394495412844,
-          "height": 227.06422018348627,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Alligator",
-          "persistentUuid": "c468a1fd-80b1-44f4-be3f-6a462c550664",
-          "width": 250,
-          "x": 515,
-          "y": 394,
-          "zOrder": 250,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 1,
           "height": 30,
           "keepRatio": true,
@@ -12232,57 +12365,6 @@
           "x": 1266,
           "y": 631,
           "zOrder": 54,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0.573394495412844,
-          "height": 227.06422018348627,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Alligator",
-          "persistentUuid": "524acea5-ec7b-49c1-8332-10ee08dc885d",
-          "width": 250,
-          "x": 182,
-          "y": 188,
-          "zOrder": 250,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0.573394495412844,
-          "height": 227.06422018348627,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Alligator",
-          "persistentUuid": "b46c0eab-d1bf-4309-8ad2-b2a28986ec7a",
-          "width": 250,
-          "x": 965,
-          "y": 194,
-          "zOrder": 250,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0.573394495412844,
-          "height": 227.06422018348627,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Alligator",
-          "persistentUuid": "33eb36e5-b243-4174-a2d3-d898e526d21f",
-          "width": 250,
-          "x": 954,
-          "y": 535,
-          "zOrder": 250,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -15604,30 +15686,21 @@
                     "transição",
                     "FlashTransitionPainter",
                     "\"0,0,0\"",
-                    "1",
+                    "3",
                     "\"Flash\"",
                     "\"Forward\"",
                     "",
                     ""
                   ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+                },
                 {
                   "type": {
-                    "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffectIsEnd"
+                    "value": "Wait"
                   },
                   "parameters": [
-                    "transição",
-                    "FlashTransitionPainter",
-                    ""
+                    "3"
                   ]
-                }
-              ],
-              "actions": [
+                },
                 {
                   "type": {
                     "value": "Scene"
